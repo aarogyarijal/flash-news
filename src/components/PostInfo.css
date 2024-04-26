@@ -1,0 +1,50 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.footer-left {
+  position: relative;
+  color: white;
+  flex-grow: 1;
+  pointer-events: none;
+  display: flex;
+  margin-left: 5px;
+  height: 100%;
+}
+
+.ticker {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  position: absolute;
+}
+
+.ticker marquee {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
+  width: 100%;
+}
+
+.text h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.text p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.text span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+}

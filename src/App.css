@@ -1,0 +1,130 @@
+html {
+  scroll-snap-type: y mandatory;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+}
+
+.app {
+  height: 100vh;
+  background-color: #000;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.bottom-navbar {
+  position: sticky;
+  background-color: #161616;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+.bottom-navbar .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-navbar .icon {
+  font-size: 18px;
+  color: gray;
+}
+
+.bottom-navbar .plus{
+  background-color: #fff;
+  color: #161616;
+  padding: 5px 10px;
+  border-radius: 25%;
+  border-right: 5px solid red;
+  border-left: 5px solid turquoise;
+  font-size: 12px;
+}
+
+.bottom-navbar .item-name {
+  color: #d4d3d3;
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.bottom-navbar .active {
+  color: #fff;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  background-color: #2b2b2b;
+  color: #fff;
+  width: 70%;
+}
+
+.search-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: gray;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hover effect for button */
+.search-button:hover {
+  background-color: #45a049;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: #2b2b2b;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
