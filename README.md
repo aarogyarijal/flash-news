@@ -2,15 +2,19 @@
 
 
 # Working Features
-- Browse and view TikTok-style news.
+- Browse and view news. 
+  - News can be seen as soon as entering the app.
 - User-friendly interface with intuitive navigation.
-- Infinite scrolling for seamless news discovery.
-- Search for specific news
+  - NavBar is at the bottom of the screen for seamless navigation.
+- Scrolling for seamless news discovery.
+  - Easy and Intuitive scrolling. Swiping up and down in the home page to navigate between news.
+- Search for personalized content.
+  - Search Page to find personalized content.
 
 # Dummy Features
-- Save Videos
+- Save/Bookmark Videos
 - Profile Page
-- Interacting with Videos (Share, Comment, ..)
+- Interacting with Videos (Share, Comment)
 
 # Technologies & Tools Used
 - React.js

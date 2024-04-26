@@ -18,6 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "dev": "nodemon ./bin/www",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "react-video-thumbnail": "^0.1.3"
   }
 }

@@ -1,17 +1,27 @@
 .footer-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .footer-left {
   position: relative;
   color: white;
   flex-grow: 1;
-  pointer-events: none;
   display: flex;
   margin-left: 5px;
   height: 100%;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: #336; /* Dark background color */
+  color: #fff; /* White text color */
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
 }
 
 .ticker {

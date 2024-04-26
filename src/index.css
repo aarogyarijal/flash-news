@@ -2,5 +2,9 @@
 body {
   margin: 0;
 }
+iframe
+{
+  display: none;
+}
 
 

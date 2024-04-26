@@ -4,7 +4,7 @@ import PostInteract from './PostInteract';
 import './PostCard.css';
 
 const PostCard = (props) => {
-    const {url, title, description, source, likes, shares, comments, saves, profilePic, setVideoRef, autoplay} = props;
+    const {url, title, description, source, link, likes, shares, comments, saves, profilePic, setVideoRef, autoplay} = props;
     const videoRef = useRef(null);
 
     useEffect(() => {
@@ -39,7 +39,7 @@ const PostCard = (props) => {
             <div className="bottom-controls">
                 <div className="footer-left">
                     {/* The left part of the container */}
-                    <PostInfo title={title} description={description} source={source}/>
+                    <PostInfo title={title} description={description} source={source} link={link}/>
                 </div>
                 <div className="footer-right">
                     {/* The right part of the container */}
