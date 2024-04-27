@@ -6,6 +6,7 @@ import SearchPage from "./components/SearchPage";
 
 const videoUrls = [
     {
+        id:1,
         url: require('./videos/politics.mp4'),
         title: 'US Supreme Court justices in Trump case lean toward some level of immunity',
         description: 'The Supreme Court\'s conservative majority suggests U.S. presidents should have some immunity from criminal charges for official acts, but not absolute immunity. Trump\'s appeal for immunity in election-related charges faces skepticism, with concerns about potential abuse of prosecution power. Justices consider returning the case to lower courts for further analysis.',
@@ -17,6 +18,7 @@ const videoUrls = [
         shares: 12,
     },
     {
+        id:2,
         url: require('./videos/google.mp4'),
         title: 'Google parent announces first-ever dividend; beats on sales, profit; shares soar',
         description: 'Alphabet, Google\'s parent company, announced its first-ever dividend of 20 cents per share and a $70 billion stock buyback, resulting in a nearly 16% surge in its stock value. The move follows strong quarterly results, including $80.54 billion in revenue and a 13% increase in advertising sales, driven by demand for cloud services and AI technologies.',
@@ -28,6 +30,7 @@ const videoUrls = [
         shares: 20,
     },
     {
+        id:3,
         url: require('./videos/bomb.mp4'),
         title: 'U.S. Secretly Shipped New Long-Range Missiles to Ukraine',
         description: 'The United States covertly sent Ukraine long-range ATACMS missiles, used in strikes on a Russian military airfield in Crimea and troops in southeastern Ukraine. President Biden approved the move in mid-February, marking a shift in policy. The aid package also included other weaponry, addressing Ukraine\'s defense needs amid ongoing conflict.',
@@ -39,6 +42,7 @@ const videoUrls = [
         shares: 11,
     },
     {
+        id:4,
         url: require('./videos/tiktok.mp4'),
         title: 'TikTok will not be sold, Chinese owner tells US',
         description: 'ByteDance, the Chinese parent company of TikTok, denies plans to sell the app despite US legislation threatening a ban unless sold. TikTok vows legal challenge, emphasizing its independence from Chinese government control. The law gives ByteDance until 2025 to divest, amid concerns over data security and China-US relations.',
@@ -50,6 +54,7 @@ const videoUrls = [
         shares: 110,
     },
     {
+        id:5,
         url: require('./videos/robot.mp4'),
         title: 'You can buy a flame-throwing robot dog for under $10,000',
         description: 'Ohio-based company Throwflame is selling a fire-spewing robot dog named Thermonator for $9,420. The robot can operate in dark environments, shoot fire up to nine meters, and is legal in 48 states. It\'s marketed for snow and ice removal, wildfire management, and entertainment. Age restrictions aren\'t specified.',
