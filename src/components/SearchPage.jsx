@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import "./ProfilePage.css";
 
 function SearchPage({videos}) {
     const [searchTerm, setSearchTerm] = useState("");
@@ -18,7 +19,6 @@ function SearchPage({videos}) {
             <div className="search-container">
                 <input type="text" placeholder="Search..." className="search-input"
                        onChange={(e) => setSearchTerm(e.target.value)}/>
-                <button className="search-button">&#128269;</button>
             </div>
             <div className="grid-container">
                 {filteredVideos.map((video, index) => (

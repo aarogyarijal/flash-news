@@ -3,22 +3,24 @@ import './App.css';
 import PostCard from './components/PostCard';
 import NavBar from './components/NavBar';
 import SearchPage from "./components/SearchPage";
+import ProfilePage from "./components/ProfilePage";
+import SavedPage from "./components/SavedPage";
 
 const videoUrls = [
     {
-        id:1,
+        id: 1,
         url: require('./videos/politics.mp4'),
         title: 'US Supreme Court justices in Trump case lean toward some level of immunity',
         description: 'The Supreme Court\'s conservative majority suggests U.S. presidents should have some immunity from criminal charges for official acts, but not absolute immunity. Trump\'s appeal for immunity in election-related charges faces skepticism, with concerns about potential abuse of prosecution power. Justices consider returning the case to lower courts for further analysis.',
         source: 'Reuters - John Kruzel & Andrew Chung - April 25, 2024',
-        link:'https://www.reuters.com/legal/us-supreme-court-weighs-trumps-bid-immunity-prosecution-2024-04-25/',
+        link: 'https://www.reuters.com/legal/us-supreme-court-weighs-trumps-bid-immunity-prosecution-2024-04-25/',
         likes: 320,
         comments: 23,
         saves: 3,
         shares: 12,
     },
     {
-        id:2,
+        id: 2,
         url: require('./videos/google.mp4'),
         title: 'Google parent announces first-ever dividend; beats on sales, profit; shares soar',
         description: 'Alphabet, Google\'s parent company, announced its first-ever dividend of 20 cents per share and a $70 billion stock buyback, resulting in a nearly 16% surge in its stock value. The move follows strong quarterly results, including $80.54 billion in revenue and a 13% increase in advertising sales, driven by demand for cloud services and AI technologies.',
@@ -30,7 +32,7 @@ const videoUrls = [
         shares: 20,
     },
     {
-        id:3,
+        id: 3,
         url: require('./videos/bomb.mp4'),
         title: 'U.S. Secretly Shipped New Long-Range Missiles to Ukraine',
         description: 'The United States covertly sent Ukraine long-range ATACMS missiles, used in strikes on a Russian military airfield in Crimea and troops in southeastern Ukraine. President Biden approved the move in mid-February, marking a shift in policy. The aid package also included other weaponry, addressing Ukraine\'s defense needs amid ongoing conflict.',
@@ -42,24 +44,24 @@ const videoUrls = [
         shares: 11,
     },
     {
-        id:4,
+        id: 4,
         url: require('./videos/tiktok.mp4'),
         title: 'TikTok will not be sold, Chinese owner tells US',
         description: 'ByteDance, the Chinese parent company of TikTok, denies plans to sell the app despite US legislation threatening a ban unless sold. TikTok vows legal challenge, emphasizing its independence from Chinese government control. The law gives ByteDance until 2025 to divest, amid concerns over data security and China-US relations.',
         source: 'BBC - João da Silva - April 26, 2024',
-        link:'https://www.bbc.com/news/articles/c289n8m4j19o',
+        link: 'https://www.bbc.com/news/articles/c289n8m4j19o',
         likes: 332,
         comments: 452,
         saves: 1,
         shares: 110,
     },
     {
-        id:5,
+        id: 5,
         url: require('./videos/robot.mp4'),
         title: 'You can buy a flame-throwing robot dog for under $10,000',
         description: 'Ohio-based company Throwflame is selling a fire-spewing robot dog named Thermonator for $9,420. The robot can operate in dark environments, shoot fire up to nine meters, and is legal in 48 states. It\'s marketed for snow and ice removal, wildfire management, and entertainment. Age restrictions aren\'t specified.',
         source: 'Business Insider - Jyoti Mann - Apr 25, 2024',
-        link:'https://www.businessinsider.com/thermonator-flame-throwing-robot-dog-selling-online-legal-us-states-2024-4',
+        link: 'https://www.businessinsider.com/thermonator-flame-throwing-robot-dog-selling-online-legal-us-states-2024-4',
         likes: 6232,
         comments: 1522,
         saves: 53,
@@ -146,8 +148,16 @@ function App() {
                 {/*)*/}
                 {/*}*/}
 
-                {(currentPage === "search" || currentPage === "saved") && (
+                {(currentPage === "search") && (
                     <SearchPage videos={videos}/>
+                )
+                }
+                {(currentPage === "profile") && (
+                    <ProfilePage/>
+                )
+                }
+                {(currentPage === "saved") && (
+                    <SavedPage videos={videos.slice(0,2)}/>
                 )
                 }
                 <NavBar className="bottom-navbar" currentPage={currentPage} handlePageChange={handlePageChange}/>

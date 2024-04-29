@@ -5,7 +5,6 @@ import './PostInfo.css';
 
 export default function PostInfo(props) {
   const { title, description, source, link } = props;
-  console.log("link:"+link);
   return (
     <div className="footer-container">
       <div className="footer-left">
