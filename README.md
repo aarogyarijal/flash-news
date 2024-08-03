@@ -20,6 +20,7 @@
 - React.js
 - CSS
 - JSX
+- Node.js
 - VS Code
 
 # Installation and Usage
@@ -29,6 +30,9 @@ To use this application:
 - Open the project.
 - Run `npm install`.
 - Run `npm start`.
+- Open ./backend.
+- Run `npm install`.
+- Run `node server.js`.
 - Open your browser and navigate to `http://localhost:3000`.
 - Go to Browser Menu and Enable Responsive Design Mode.
 - Select a Mobile Screen to emulate.
