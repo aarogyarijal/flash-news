@@ -8,7 +8,7 @@ function SearchPage({videos}) {
     // const filterVideos = () => {
     useEffect(() => {
         const filtered = videos.filter(video =>
-            (video.title.toLowerCase().includes(searchTerm.toLowerCase()) || video.description.toLowerCase().includes(searchTerm.toLowerCase()) || video.source.toLowerCase().includes(searchTerm.toLowerCase()))
+            (video.title?.toLowerCase().includes(searchTerm.toLowerCase()) || video.description?.toLowerCase().includes(searchTerm.toLowerCase()) || video.source?.toLowerCase().includes(searchTerm.toLowerCase()))
         );
         setFilteredVideos(filtered);
     }, [searchTerm]);
@@ -24,9 +24,7 @@ function SearchPage({videos}) {
                 {filteredVideos.map((video, index) => (
                     <div className="grid-item" key={video.id}>
                         <div className="title">{video.title}</div>
-                        <video muted loop style={{width: "42vw"}}>
-                            <source src={video.url} type="video/mp4"/>
-                        </video>
+                        <img src={video.url} style={{width: "42vw"}} />
                     </div>
                 ))}
             </div>

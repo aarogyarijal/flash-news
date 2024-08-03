@@ -1,0 +1,1100 @@
+{
+  "data": {
+    "status": 200,
+    "numResults": 4248,
+    "articles": [
+      {
+        "url": "https://www.cbsnews.com/minnesota/video/edina-art-fair-returns-for-57th-year/",
+        "authorsByline": "CBS Minnesota",
+        "articleId": "bede87ce415a46a4955a7ba31f23b9a4",
+        "clusterId": "e9c45c849f30489e9b011c0c071c5dfc",
+        "source": {
+          "domain": "cbsnews.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/06/01/cbf8dc59-84e3-4283-be71-4de79e097306/thumbnail/1200x630/c380c7867daac2655130acf48cff2e83/f834b0b8fc9c6482c0ab2dcaa523b5f2.jpg?v=d7bbca61a2ddd34e0cfc8fb46aec1df3",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T08:52:00-05:00",
+        "addDate": "2024-06-01T14:17:00.458351+00:00",
+        "refreshDate": "2024-06-01T14:17:00.458353+00:00",
+        "score": 7.725372,
+        "title": "Edina Art Fair returns for 57th year",
+        "description": "This year, the theme is “Metamorphosis,” and more than 250 national and local fine artists are displaying their work.",
+        "content": "This year, the theme is “Metamorphosis,” and more than 250 national and local fine artists are displaying their work.",
+        "medium": "Video",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Edina Art Fair",
+            "weight": 0.18468186
+          },
+          {
+            "name": "57th year",
+            "weight": 0.17687142
+          },
+          {
+            "name": "Metamorphosis",
+            "weight": 0.12877965
+          },
+          {
+            "name": "more than 250 national and local fine artists",
+            "weight": 0.09932578
+          },
+          {
+            "name": "This year",
+            "weight": 0.06589956
+          },
+          {
+            "name": "the theme",
+            "weight": 0.054098077
+          },
+          {
+            "name": "their work",
+            "weight": 0.048919737
+          },
+          {
+            "name": "more than 250",
+            "weight": 0.0467906
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "General"
+          }
+        ],
+        "entities": [
+          {
+            "data": "Edina Art Fair",
+            "type": "EVENT",
+            "mentions": 1
+          },
+          {
+            "data": "Metamorphosis",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.51463246,
+          "negative": 0.05073208,
+          "neutral": 0.43463543
+        },
+        "summary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "MN",
+            "city": "Minneapolis"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "714e489a446646b289e9db95272a6e00",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cbsnews.com/newyork/video/gun-buyback-at-shiloh-baptist-church-in-new-rochelle/",
+        "authorsByline": "CBS New York",
+        "articleId": "dcf71716745940208ee6b2e980865916",
+        "clusterId": "2111be16167a45519a56b1612e26f144",
+        "source": {
+          "domain": "cbsnews.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/06/01/9a9045b9-cc6a-473e-9f34-5cfe3c8b0396/thumbnail/1200x630/2ae4ec30d6e9fd613698eb1028428e91/5dd671d84c8e79efa93eb8058f6fa25f.jpg?v=d7bbca61a2ddd34e0cfc8fb46aec1df3",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T09:56:00-04:00",
+        "addDate": "2024-06-01T14:14:43.408921+00:00",
+        "refreshDate": "2024-06-01T14:14:43.408922+00:00",
+        "score": 7.725372,
+        "title": "Gun buyback at Shiloh Baptist Church in New Rochelle",
+        "description": "In an effort to get guns off the streets of New Rochelle, pre-paid gift cards worth up to $250 are being offered for surrendered firearms, no questions asked.",
+        "content": "Gun buyback at Shiloh Baptist Church in New Rochelle In an effort to get guns off the streets of New Rochelle, pre-paid gift cards worth up to $250 are being offered for surrendered firearms, no quest... [211 symbols]",
+        "medium": "Video",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "New Rochelle",
+            "weight": 0.17951122
+          },
+          {
+            "name": "Shiloh Baptist Church",
+            "weight": 0.17890415
+          },
+          {
+            "name": "pre-paid gift cards",
+            "weight": 0.17457545
+          },
+          {
+            "name": "Gun buyback",
+            "weight": 0.15408307
+          },
+          {
+            "name": "surrendered firearms",
+            "weight": 0.14713283
+          },
+          {
+            "name": "guns",
+            "weight": 0.1252714
+          },
+          {
+            "name": "\n\nGun buyback",
+            "weight": 0.08171489
+          },
+          {
+            "name": "the streets",
+            "weight": 0.04632979
+          },
+          {
+            "name": "no questions",
+            "weight": 0.044983942
+          },
+          {
+            "name": "an effort",
+            "weight": 0.035694633
+          }
+        ],
+        "topics": [
+          {
+            "name": "Christianity"
+          }
+        ],
+        "categories": [
+          {
+            "name": "General"
+          }
+        ],
+        "entities": [
+          {
+            "data": "Shiloh Baptist Church",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "New Rochelle",
+            "type": "GPE",
+            "mentions": 3
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.2630988,
+          "negative": 0.11766507,
+          "neutral": 0.6192361
+        },
+        "summary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "NY",
+            "city": "New York"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "11c01854063745e781c590f47c7b781e",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cbsnews.com/minnesota/video/4-things-to-do-today-june-1-2024/",
+        "authorsByline": "CBS Minnesota",
+        "articleId": "ba9402e5c2fa482e910794f4f01d7f1e",
+        "clusterId": "55e21f17a779497b8c8a4dcc7b855424",
+        "source": {
+          "domain": "cbsnews.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2024/06/01/5253178a-9003-4119-93b8-1a3e5fb90102/thumbnail/1200x630/ab5598e796a17fd3bd46c6cd8c6d3d6b/c7c888d654f19b140c04a71e32cc9435.jpg?v=d7bbca61a2ddd34e0cfc8fb46aec1df3",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T08:58:00-05:00",
+        "addDate": "2024-06-01T14:13:38.607412+00:00",
+        "refreshDate": "2024-06-01T14:13:38.607413+00:00",
+        "score": 7.725372,
+        "title": "4 things to do today: June 1, 2024",
+        "description": "Here are four things you can do today.",
+        "content": "Here are four things you can do today.",
+        "medium": "Video",
+        "links": [],
+        "labels": [
+          {
+            "name": "Non-news"
+          }
+        ],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "today",
+            "weight": 0.26182842
+          },
+          {
+            "name": "4 things",
+            "weight": 0.12093337
+          },
+          {
+            "name": "four things",
+            "weight": 0.12093337
+          },
+          {
+            "name": "June 1, 2024",
+            "weight": 0.057880793
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "General"
+          }
+        ],
+        "entities": [],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.19146584,
+          "negative": 0.28129783,
+          "neutral": 0.5272363
+        },
+        "summary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "MN",
+            "city": "Minneapolis"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "a597705774284436be8b3a5f0802e319",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cbsnews.com/minnesota/video/next-weather-morning-report-on-june-1-2024/",
+        "authorsByline": "CBS Minnesota",
+        "articleId": "30cf67e96bbe45229e18cf7c5888cbd0",
+        "clusterId": "796a6b984ca741f39e57bd00e987bb24",
+        "source": {
+          "domain": "cbsnews.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/06/01/6feaf8e7-24db-450c-8071-1731966de907/thumbnail/1200x630/5857aa68d5895e2d4b74ad8efa07cac1/97d205d64dd5dda59441a0cf80728edd.jpg?v=d7bbca61a2ddd34e0cfc8fb46aec1df3",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T08:43:00-05:00",
+        "addDate": "2024-06-01T14:13:38.673386+00:00",
+        "refreshDate": "2024-06-01T14:13:38.673388+00:00",
+        "score": 7.725372,
+        "title": "NEXT Weather: Morning report on June 1, 2024",
+        "description": "Showers are exiting the state Saturday and the clouds will clear, bringing temps into the 80s.",
+        "content": "Showers are exiting the state Saturday and the clouds will clear, bringing temps into the 80s.",
+        "medium": "Video",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Morning report",
+            "weight": 0.18682165
+          },
+          {
+            "name": "NEXT Weather",
+            "weight": 0.1759459
+          },
+          {
+            "name": "Saturday",
+            "weight": 0.14918487
+          },
+          {
+            "name": "Morning",
+            "weight": 0.14011623
+          },
+          {
+            "name": "temps",
+            "weight": 0.12528765
+          },
+          {
+            "name": "June",
+            "weight": 0.123264015
+          },
+          {
+            "name": "80s",
+            "weight": 0.1113133
+          },
+          {
+            "name": "Showers",
+            "weight": 0.1113133
+          },
+          {
+            "name": "the clouds",
+            "weight": 0.068667665
+          },
+          {
+            "name": "the state",
+            "weight": 0.06360211
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "General"
+          },
+          {
+            "name": "Weather"
+          }
+        ],
+        "entities": [
+          {
+            "data": "Morning",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.4743929,
+          "negative": 0.17047665,
+          "neutral": 0.3551304
+        },
+        "summary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "MN",
+            "city": "Minneapolis"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "4975e52114074da09644246a60667deb",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cbsnews.com/minnesota/video/clay-coyote-has-options-for-grilling-and-fathers-day/",
+        "authorsByline": "CBS Minnesota",
+        "articleId": "d75faa4d66254a1891606ee4e6697195",
+        "clusterId": "bd22e6e3df0c4de1a2115b876b00039d",
+        "source": {
+          "domain": "cbsnews.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2024/06/01/770d1f6e-d5ee-47de-8373-79cf3b97c374/thumbnail/1200x630/63dd013ecae83ee84c92841d34b8f29d/070be2bf33ba55fbb5022f6273126230.jpg?v=d7bbca61a2ddd34e0cfc8fb46aec1df3",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T08:54:00-05:00",
+        "addDate": "2024-06-01T14:13:34.067162+00:00",
+        "refreshDate": "2024-06-01T14:13:34.067163+00:00",
+        "score": 7.725372,
+        "title": "Clay Coyote has options for grilling and Father's Day",
+        "description": "Morgan Baum with Clay Coyote has some gift ideas for grilling season and father’s day.",
+        "content": "Clay Coyote has options for grilling and Father's Day Morgan Baum with Clay Coyote has some gift ideas for grilling season and father’s day.",
+        "medium": "Video",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Clay Coyote",
+            "weight": 0.20642723
+          },
+          {
+            "name": "grilling season",
+            "weight": 0.19806443
+          },
+          {
+            "name": "grilling",
+            "weight": 0.1791432
+          },
+          {
+            "name": "Morgan Baum",
+            "weight": 0.14969221
+          },
+          {
+            "name": "options",
+            "weight": 0.14895599
+          },
+          {
+            "name": "Fathers Day",
+            "weight": 0.090334944
+          },
+          {
+            "name": "some gift ideas",
+            "weight": 0.081073694
+          },
+          {
+            "name": "father’s day",
+            "weight": 0.07650412
+          }
+        ],
+        "topics": [
+          {
+            "name": "Father's Day"
+          },
+          {
+            "name": "Holidays"
+          }
+        ],
+        "categories": [
+          {
+            "name": "General"
+          }
+        ],
+        "entities": [
+          {
+            "data": "Clay Coyote",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Morgan Baum",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Clay Coyote",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.3581247,
+          "negative": 0.08516597,
+          "neutral": 0.55670935
+        },
+        "summary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "MN",
+            "city": "Minneapolis"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "958b31592c314bd9ba42b22f29f06837",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cbsnews.com/boston/video/massachusetts-delays-exit-notices-for-families-nearing-limit-on-shelter-stays/",
+        "authorsByline": "CBS Boston",
+        "articleId": "e5c4c95002a84eb3b77a0c257d5399bf",
+        "clusterId": "330ce909440649559a6bd561564ce473",
+        "source": {
+          "domain": "cbsnews.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/06/01/98ce8f60-9a54-44fb-a099-c5f840785e80/thumbnail/1200x630/7b2d52054237f92b1f7dd6ce1c31f710/da52e796b68a0687d66881f2d43611a8.jpg?v=d7bbca61a2ddd34e0cfc8fb46aec1df3",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T10:10:00-04:00",
+        "addDate": "2024-06-01T14:25:38.272772+00:00",
+        "refreshDate": "2024-06-01T14:25:38.272775+00:00",
+        "score": 7.725372,
+        "title": "Massachusetts delays exit notices for families nearing limit on shelter stays",
+        "description": "The 90-day warnings will now go out in July after the Healey Administration said details need to be worked out. There's a new nine-month limit on unhoused families in the shelter system.",
+        "content": "The 90-day warnings will now go out in July after the Healey Administration said details need to be worked out. There's a new nine-month limit on unhoused families in the shelter system.",
+        "medium": "Video",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "unhoused families",
+            "weight": 0.16084798
+          },
+          {
+            "name": "exit notices",
+            "weight": 0.13812281
+          },
+          {
+            "name": "shelter stays",
+            "weight": 0.13511683
+          },
+          {
+            "name": "limit",
+            "weight": 0.1339386
+          },
+          {
+            "name": "families",
+            "weight": 0.13349837
+          },
+          {
+            "name": "July",
+            "weight": 0.11252888
+          },
+          {
+            "name": "details",
+            "weight": 0.104032956
+          },
+          {
+            "name": "Massachusetts",
+            "weight": 0.08151706
+          },
+          {
+            "name": "the Healey Administration",
+            "weight": 0.079092
+          },
+          {
+            "name": "the shelter system",
+            "weight": 0.07165875
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "General"
+          }
+        ],
+        "entities": [
+          {
+            "data": "Massachusetts",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Healey Administration",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.04810999,
+          "negative": 0.6522471,
+          "neutral": 0.29964292
+        },
+        "summary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "MA",
+            "city": "Boston"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "e3bdee0e34e543b581731d7e36cb9c31",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cbsnews.com/minnesota/video/wcco-digital-headlines-morning-of-june-1-2024/",
+        "authorsByline": "CBS Minnesota",
+        "articleId": "43511e2ef007486792086f3f18b7a474",
+        "clusterId": "3c9723d14dc04223b16770912b328946",
+        "source": {
+          "domain": "cbsnews.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/06/01/9520fbd0-667c-44f0-936b-242da54194ec/thumbnail/1200x630/b71193b0932629c927f5d28b8acc5a77/5af56eb75bf5bb3bbaabfb53975c08d6.jpg?v=d7bbca61a2ddd34e0cfc8fb46aec1df3",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T08:51:00-05:00",
+        "addDate": "2024-06-01T14:11:12.229221+00:00",
+        "refreshDate": "2024-06-01T14:11:12.229223+00:00",
+        "score": 7.725372,
+        "title": "WCCO Digital Headlines: Morning of June 1, 2024",
+        "description": "Here are your latest headlines from WCCO.",
+        "content": "Here are your latest headlines from WCCO.com.\n\nWCCO Digital Headlines: Morning of June 1, 2024 Here are your latest headlines from WCCO.com.\n\nBe the first to know\n\nGet browser notifications for breaki... [246 symbols]",
+        "medium": "Video",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "WCCO Digital Headlines",
+            "weight": 0.18059285
+          },
+          {
+            "name": "browser notifications",
+            "weight": 0.17100938
+          },
+          {
+            "name": "breaking news",
+            "weight": 0.17010419
+          },
+          {
+            "name": "live events",
+            "weight": 0.16542679
+          },
+          {
+            "name": "exclusive reporting",
+            "weight": 0.13716847
+          },
+          {
+            "name": "Morning",
+            "weight": 0.13687249
+          },
+          {
+            "name": "June",
+            "weight": 0.123927385
+          },
+          {
+            "name": "WCCO",
+            "weight": 0.10787982
+          },
+          {
+            "name": "your latest headlines",
+            "weight": 0.07008051
+          },
+          {
+            "name": "Morning of June 1",
+            "weight": 0.06700367
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "General"
+          }
+        ],
+        "entities": [
+          {
+            "data": "WCCO",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Morning of June 1",
+            "type": "TIME",
+            "mentions": 2
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.21941425,
+          "negative": 0.12070287,
+          "neutral": 0.6598829
+        },
+        "summary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "MN",
+            "city": "Minneapolis"
+          }
+        ],
+        "reprint": true,
+        "reprintGroupId": "bb9c460c2fd948dbaa0f012358fd2a3e",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cbsnews.com/chicago/video/president-biden-israeli-ceasefire-proposal/",
+        "authorsByline": "CBS Chicago",
+        "articleId": "c8920cf65fb445ebae56305164383ba8",
+        "clusterId": "dfce668e0f2d4106bb8bf65eb618c8c8",
+        "source": {
+          "domain": "cbsnews.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/06/01/17259cc2-764c-4f57-aeb1-28f61d4373d8/thumbnail/1200x630/4df9131ae1ecb18d7268cb56ee1849fa/2f62767e5950ddefa582ab0db8b10117-0-1717249117637.png?v=d7bbca61a2ddd34e0cfc8fb46aec1df3",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T08:38:00-05:00",
+        "addDate": "2024-06-01T14:19:54.975070+00:00",
+        "refreshDate": "2024-06-01T14:19:54.975072+00:00",
+        "score": 7.725372,
+        "title": "President Biden explains Israeli ceasefire proposal",
+        "description": "The president laid out a new offer from Israel delivered to Hamas by Qatar that would start with a six-week cease-fire, allowing talks for permanent peace. Israeli military forces would withdraw from Gaza, and Israeli hostages would be released in exchange for Palestinian prisoners. It would also allow 600 trucks with humanitarian aid into Gaza daily.",
+        "content": "The president laid out a new offer from Israel delivered to Hamas by Qatar that would start with a six-week cease-fire, allowing talks for permanent peace. Israeli military forces would withdraw from ... [353 symbols]",
+        "medium": "Video",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Israeli hostages",
+            "weight": 0.14814046
+          },
+          {
+            "name": "Israeli military forces",
+            "weight": 0.14498849
+          },
+          {
+            "name": "Israeli ceasefire proposal",
+            "weight": 0.14376906
+          },
+          {
+            "name": "Israeli",
+            "weight": 0.12782526
+          },
+          {
+            "name": "Gaza",
+            "weight": 0.109903514
+          },
+          {
+            "name": "humanitarian aid",
+            "weight": 0.10220275
+          },
+          {
+            "name": "President Biden",
+            "weight": 0.09986699
+          },
+          {
+            "name": "Palestinian prisoners",
+            "weight": 0.098694906
+          },
+          {
+            "name": "permanent peace",
+            "weight": 0.09712753
+          },
+          {
+            "name": "Israel",
+            "weight": 0.0904708
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "General"
+          },
+          {
+            "name": "Politics"
+          }
+        ],
+        "entities": [
+          {
+            "data": "Biden",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Israeli",
+            "type": "NORP",
+            "mentions": 3
+          },
+          {
+            "data": "Palestinian",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Israel",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Qatar",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Gaza",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Hamas",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.1474475,
+          "negative": 0.33891436,
+          "neutral": 0.51363814
+        },
+        "summary": "Israeli President Biden has outlined a new ceasefire proposal from Israel, which would involve a six-week cease-fire and allow for permanent peace in Gaza, withdrawing Israeli military forces from Gaza and releasing Israeli hostages in exchange for Palestinian prisoners. The proposal also includes allowing 600 trucks with humanitarian aid into Gaza daily and allowing Israel to enter as many as 600 trucks.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "IL",
+            "city": "Chicago"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "1d9239e09bd14045bcb9c9c89284662b",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://abcnews.go.com/GMA/News/video/florida-deputy-fired-fatally-shooting-us-airman-110738217",
+        "authorsByline": "ABC News",
+        "articleId": "3f80485f8c2a4f058ecfa9629ee01748",
+        "clusterId": "cd07ea511e5a4fbfa201003817994c6a",
+        "source": {
+          "domain": "abcnews.go.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://i.abcnewsfe.com/a/21c8c06f-7738-4403-8ed2-b32f76926402/240601_gma_newsvo_airmen1_hpMain_16x9.jpg?w=992",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T14:10:12+00:00",
+        "addDate": "2024-06-01T14:19:39.860261+00:00",
+        "refreshDate": "2024-06-01T14:19:39.860264+00:00",
+        "score": 7.725372,
+        "title": "Florida deputy fired for fatally shooting US airman",
+        "description": "The Okaloosa County Sheriff’s Office says an investigation found that the former deputy Eddie Duran used unreasonable deadly force against airman Roger Fortson.",
+        "content": "",
+        "medium": "Video",
+        "links": [
+          "https://abcnews.go.com/US/video/texas-school-shooting-84979066",
+          "https://abcnews.go.com/US/video/gun-violence-american-epidemic-80735720",
+          "https://abcnews.go.com/Politics/video/2nd-impeachment-trial-trump-75719197",
+          "https://abcnews.go.com/Health/video/us-crosses-250000-coronavirus-deaths-73145460",
+          "https://abcnews.go.com/Politics/video/2020s-dnc-rnc-72426618",
+          "https://abcnews.go.com/US/video/abortion-rights-america-84478206",
+          "https://abcnews.go.com/Politics/video/battle-voting-rights-84446769",
+          "https://abcnews.go.com/Politics/video/dont-electoral-college-popular-vote-match-73914415",
+          "https://abcnews.go.com/International/video/whats-russia-85934447",
+          "https://abcnews.go.com/US/video/border-crisis-whats-happening-us-mexico-border-78321597",
+          "https://abcnews.go.com/US/video/examining-extremism-military-77353615",
+          "https://abcnews.go.com/Business/video/happening-usps-72506119",
+          "https://abcnews.go.com/Politics/video/trump-challenges-vote-takes-legal-action-73843112",
+          "https://abcnews.go.com/Business/video/gamestop-stock-spike-wall-street-happen-75860206",
+          "https://abcnews.go.com/Politics/video/voting-2020-covid-19-73598141",
+          "https://abcnews.go.com/US/video/disparity-police-response-black-lives-matter-protests-capitol-76065703",
+          "https://abcnews.go.com/US/video/fakenews-2020-73932311",
+          "https://abcnews.go.com/Politics/video/joe-bidens-inauguration-previous-years-75283197",
+          "https://abcnews.go.com/Politics/video/donald-trump-spent-days-president-75324664",
+          "https://abcnews.go.com/US/video/remembering-george-floyd-year-protest-77890592",
+          "https://abcnews.go.com/International/video/fight-kyiv-83394960",
+          "https://abcnews.go.com/International/video/examined-putin-power-76424404",
+          "https://abcnews.go.com/Politics/video/presidential-transition-power-examined-74479493",
+          "https://abcnews.go.com/Health/video/2020-review-year-unlike-74782005",
+          "https://abcnews.go.com/Health/video/source-covid-19-76932236",
+          "https://abcnews.go.com/US/video/build-clean-renewable-future-84176218",
+          "https://abcnews.go.com/US/video/climate-change-forest-management-make-wildfires-harder-73318307",
+          "https://abcnews.go.com/International/video/belarus-ongoing-protests-examined-74540688",
+          "https://abcnews.go.com/Health/video/people-hesitant-trust-covid-19-vaccine-74659883"
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [],
+        "topics": [
+          {
+            "name": "Crime"
+          }
+        ],
+        "categories": [
+          {
+            "name": "General"
+          }
+        ],
+        "entities": [],
+        "companies": [],
+        "summary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "bd975c6a1b9f4982b608fa950fbfb62e",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cbsnews.com/pittsburgh/video/man-shot-and-killed-in-sheraden/",
+        "authorsByline": "CBS Pittsburgh",
+        "articleId": "18a71d5dde4c4639a8d6bed4189563b5",
+        "clusterId": "1757a39e17a24fec848f465378895c45",
+        "source": {
+          "domain": "cbsnews.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2024/06/01/ae90d82e-b252-4093-a1c2-74440496f7f2/thumbnail/1200x630/026f1254575ac467bcfe7f21a81e69fd/78c548e6776d8fbd74af6806ec8e98d3.jpg?v=d7bbca61a2ddd34e0cfc8fb46aec1df3",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2024-06-01T07:00:00-04:00",
+        "addDate": "2024-06-01T11:13:31.341073+00:00",
+        "refreshDate": "2024-06-01T11:13:31.341074+00:00",
+        "score": 7.725372,
+        "title": "Man shot and killed in Sheraden",
+        "description": "Pittsburgh Police Violent Crime detectives are investigating after a man was found shot in the chest and legs on Sherwood Avenue.",
+        "content": "Pittsburgh Police Violent Crime detectives are investigating after a man was found shot in the chest and legs on Sherwood Avenue.",
+        "medium": "Video",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Pittsburgh Police Violent Crime detectives",
+            "weight": 0.20922628
+          },
+          {
+            "name": "Man",
+            "weight": 0.16375196
+          },
+          {
+            "name": "Pittsburgh Police",
+            "weight": 0.14801219
+          },
+          {
+            "name": "Sherwood Avenue",
+            "weight": 0.14724706
+          },
+          {
+            "name": "legs",
+            "weight": 0.12755787
+          },
+          {
+            "name": "Sheraden",
+            "weight": 0.10290673
+          },
+          {
+            "name": "a man",
+            "weight": 0.075633794
+          },
+          {
+            "name": "the chest",
+            "weight": 0.06348636
+          }
+        ],
+        "topics": [
+          {
+            "name": "Crime"
+          }
+        ],
+        "categories": [
+          {
+            "name": "General"
+          }
+        ],
+        "entities": [
+          {
+            "data": "Sheraden",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Pittsburgh Police",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Sherwood Avenue",
+            "type": "FAC",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.10207383,
+          "negative": 0.68539363,
+          "neutral": 0.2125325
+        },
+        "summary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "PA",
+            "city": "Pittsburgh"
+          }
+        ],
+        "reprint": true,
+        "reprintGroupId": "2c37886accab4e09aed56fb8dd2b63aa",
+        "places": [],
+        "people": []
+      }
+    ]
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "method": "get",
+    "url": "https://api.goperigon.com/v1/all?from=2024-06-01T00:00:00&sourceGroup=top100&medium=Video&language=en&searchTranslation=false&category=General&apiKey=7b9eb686-d1b1-4732-a14e-0c8a91a58d6b"
+  },
+  "request": {}
+}
