@@ -7,12 +7,10 @@ import ProfilePage from "./components/ProfilePage";
 import SavedPage from "./components/SavedPage";
 
 function App() {
-    const [videos, setVideos] = useState([]);
+    const [videos] = useState([]);
     const videoRefs = useRef([]);
     const [currentPage, setCurrentPage] = useState("home");
     const [videoUrls, setVideoUrls] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
 
     useEffect(() => {
         // Fetch JSON file from the public directory
@@ -58,11 +56,9 @@ function App() {
                 }));
                 console.log(transformedData);
                 setVideoUrls(transformedData);
-                setLoading(false);
             })
             .catch(error => {
-                setError(error);
-                setLoading(false);
+                console.error('Failed to fetch news:', error);
             });
     }, []);
 

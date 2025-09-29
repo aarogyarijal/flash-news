@@ -1,11 +1,10 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useEffect, useState} from 'react';
 import PostInfo from './PostInfo';
 import PostInteract from './PostInteract';
 import './PostCard.css';
 
 const PostCard = (props) => {
-    const {source, url, title, published, images, videos, description, journalists, likes, shares, comments, saves, profilePic, setVideoRef, autoplay} = props;
-    const videoRef = useRef(null);
+    const {source, url, title, images, description, journalists, likes, shares, comments, saves, profilePic} = props;
     const [imageSrc, setImageSrc] = useState('');
     let footer = source;
     if(journalists) {
@@ -68,7 +67,7 @@ const PostCard = (props) => {
                 {/*    loop*/}
                 {/*    src={videos[0]}*/}
                 {/*></video>*/}
-                <img className="player" src={imageSrc} />
+                <img className="player" src={imageSrc} alt={title || "News article"} />
             </div>
             <div className="bottom-controls">
                 <div className="footer-left">
