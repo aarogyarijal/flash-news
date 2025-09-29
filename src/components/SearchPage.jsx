@@ -11,7 +11,7 @@ function SearchPage({videos}) {
             (video.title?.toLowerCase().includes(searchTerm.toLowerCase()) || video.description?.toLowerCase().includes(searchTerm.toLowerCase()) || video.source?.toLowerCase().includes(searchTerm.toLowerCase()))
         );
         setFilteredVideos(filtered);
-    }, [searchTerm]);
+    }, [searchTerm, videos]);
     // };
 
     return (
@@ -24,7 +24,7 @@ function SearchPage({videos}) {
                 {filteredVideos.map((video, index) => (
                     <div className="grid-item" key={video.id}>
                         <div className="title">{video.title}</div>
-                        <img src={video.url} style={{width: "42vw"}} />
+                        <img src={video.url} style={{width: "42vw"}} alt={video.title || "News article"} />
                     </div>
                 ))}
             </div>
