@@ -1,0 +1,88 @@
+{
+  "sources": [
+    {
+      "name": "BBC News",
+      "rss_url": "https://feeds.bbci.co.uk/news/rss.xml",
+      "category": "World",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png"
+    },
+    {
+      "name": "BBC Technology",
+      "rss_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "category": "Technology",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png"
+    },
+    {
+      "name": "BBC Business",
+      "rss_url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "category": "Business",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png"
+    },
+    {
+      "name": "BBC Sports",
+      "rss_url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "category": "Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png"
+    },
+    {
+      "name": "NPR News",
+      "rss_url": "https://feeds.npr.org/1001/rss.xml",
+      "category": "World",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png"
+    },
+    {
+      "name": "The Verge",
+      "rss_url": "https://www.theverge.com/rss/index.xml",
+      "category": "Technology",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/The_Verge_logo.svg/200px-The_Verge_logo.svg.png"
+    },
+    {
+      "name": "TechCrunch",
+      "rss_url": "https://techcrunch.com/feed/",
+      "category": "Technology",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png"
+    },
+    {
+      "name": "Wired",
+      "rss_url": "https://www.wired.com/feed/rss",
+      "category": "Technology",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png"
+    },
+    {
+      "name": "ESPN",
+      "rss_url": "https://www.espn.com/espn/rss/news",
+      "category": "Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png"
+    },
+    {
+      "name": "Ars Technica",
+      "rss_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "category": "Technology",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png"
+    },
+    {
+      "name": "The Guardian",
+      "rss_url": "https://www.theguardian.com/world/rss",
+      "category": "World",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png"
+    },
+    {
+      "name": "CNN",
+      "rss_url": "http://rss.cnn.com/rss/edition.rss",
+      "category": "World",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png"
+    },
+    {
+      "name": "Al Jazeera",
+      "rss_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "category": "World",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png"
+    },
+    {
+      "name": "Hacker News",
+      "rss_url": "https://hnrss.org/frontpage",
+      "category": "Technology",
+      "logo": "https://news.ycombinator.com/y18.svg"
+    }
+  ]
+}
