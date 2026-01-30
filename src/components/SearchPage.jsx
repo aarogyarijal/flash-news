@@ -1,9 +1,16 @@
 import React, {useEffect, useState} from "react";
 import "./ProfilePage.css";
 
-function SearchPage({videos}) {
+function SearchPage({videos, onArticleSelect}) {
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredVideos, setFilteredVideos] = useState([]);
+    
+    const getProxyImageUrl = (images) => {
+        if (!images) return '';
+        const imageUrl = Array.isArray(images) ? images[1] || images[0] : images;
+        return `http://localhost:3001/proxy-image?url=${encodeURIComponent(imageUrl)}`;
+    };
+    
     // Function to filter videos based on search term
     // const filterVideos = () => {
     useEffect(() => {
@@ -22,9 +29,14 @@ function SearchPage({videos}) {
             </div>
             <div className="grid-container">
                 {filteredVideos.map((video, index) => (
-                    <div className="grid-item" key={video.id}>
+                    <div 
+                        className="grid-item" 
+                        key={video.id}
+                        onClick={() => onArticleSelect(video.id)}
+                        style={{cursor: 'pointer'}}
+                    >
                         <div className="title">{video.title}</div>
-                        <img src={video.url} style={{width: "42vw"}} alt={video.title || "News article"} />
+                        <img src={getProxyImageUrl(video.images)} style={{width: "42vw"}} alt={video.title || "News article"} />
                     </div>
                 ))}
             </div>

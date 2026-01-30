@@ -6,6 +6,7 @@ import './PostCard.css';
 const PostCard = (props) => {
     const {source, url, title, images, description, journalists, likes, shares, comments, saves, profilePic} = props;
     const [imageSrc, setImageSrc] = useState('');
+    const [imageError, setImageError] = useState(false);
     let footer = source;
     if(journalists) {
         footer = source + " | " + journalists?.join(" & ");
@@ -25,28 +26,49 @@ const PostCard = (props) => {
     // };
 
     useEffect(() => {
+        const proxyUrl = (url) => `http://localhost:3001/proxy-image?url=${encodeURIComponent(url)}`;
+        
         const checkImage = (url) => {
             return new Promise((resolve, reject) => {
                 const img = new Image();
-                img.src = url;
-                img.onload = () => resolve(url);
+                img.src = proxyUrl(url);
+                img.onload = () => resolve(proxyUrl(url));
                 img.onerror = () => reject();
             });
         };
 
         const loadImage = async () => {
-            if (!Array.isArray(images)) {
-                setImageSrc(images);
+            setImageError(false);
+            
+            if (!images) {
+                setImageError(true);
                 return;
             }
+            
+            if (!Array.isArray(images)) {
+                try {
+                    const validUrl = await checkImage(images);
+                    setImageSrc(validUrl);
+                } catch {
+                    setImageError(true);
+                }
+                return;
+            }
+            
+            let loaded = false;
             for (const imageUrl of images.slice(1)) {
                 try {
                     const validUrl = await checkImage(imageUrl);
                     setImageSrc(validUrl);
+                    loaded = true;
                     break;
                 } catch {
                     // continue to next URL
                 }
+            }
+            
+            if (!loaded) {
+                setImageError(true);
             }
         };
 
@@ -56,18 +78,14 @@ const PostCard = (props) => {
     return (
         <>
             <div className="video">
-                 The video element
-                {/*<video muted*/}
-                {/*    className="player"*/}
-                {/*    onClick={onVideoPress}*/}
-                {/*    ref={(ref) => {*/}
-                {/*        videoRef.current = ref;*/}
-                {/*        setVideoRef(ref);*/}
-                {/*    }}*/}
-                {/*    loop*/}
-                {/*    src={videos[0]}*/}
-                {/*></video>*/}
-                <img className="player" src={imageSrc} alt={title || "News article"} />
+                {imageError ? (
+                    <div className="image-error">
+                        <div className="error-icon">⚠️</div>
+                        <div className="error-text">Unable to load image</div>
+                    </div>
+                ) : (
+                    <img className="player" src={imageSrc} alt={title || "News article"} />
+                )}
             </div>
             <div className="bottom-controls">
                 <div className="footer-left">

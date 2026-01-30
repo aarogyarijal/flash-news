@@ -1,326 +1,1815 @@
 {
-  "newspapers": {
-    "bbc": {
-      "rss": "http://feeds.bbci.co.uk/news/rss.xml",
-      "link": "http://www.bbc.com/",
-      "articles": [
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.com/news/articles/cnl0lkrxgvxo",
-          "title": "Sunderland rioters attack police office and set car alight",
-          "published": null,
-          "images": "https://ichef.bbci.co.uk/news/1024/branded_news/c29d/live/5fe730b0-5113-11ef-8761-dbbf15f0eebf.jpg",
-          "videos": null,
-          "description": "Three officers were taken to hospital and eight people were arrested, Northumbria Police say.",
-          "journalists": null
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.com/sport/olympics/articles/czd9del9e2vo",
-          "title": "Paris Olympics: GB set new Games gold record, joy for France",
-          "published": null,
-          "images": "https://ichef.bbci.co.uk/news/1024/branded_sport/9916/live/ed47b4b0-5114-11ef-b2d2-cdb23d5d7c5b.jpg",
-          "videos": null,
-          "description": "Great Britain continue their most successful start to a summer Olympics - reaching nine golds after seven days for the first time ever at the Games.",
-          "journalists": null
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.com/news/articles/c7202593k0xo",
-          "title": "Plea deal with accused 9/11 plotters revoked",
-          "published": null,
-          "images": "https://ichef.bbci.co.uk/news/1024/branded_news/4bd2/live/ec362530-5136-11ef-9030-fdee6094dfa3.jpg",
-          "videos": null,
-          "description": "US defence secretary Lloyd Austin says he did not agree to deal and relieves officer overseeing court of authority.",
-          "journalists": null
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.com/news/articles/c1rwvxy1nyzo",
-          "title": "What pointers can Kamala Harris take from the state run by women?",
-          "published": null,
-          "images": "https://ichef.bbci.co.uk/news/1024/branded_news/4ffa/live/d5f85ad0-50c4-11ef-aebc-6de4d31bf5cd.png",
-          "videos": null,
-          "description": "With no woman having served as president, the state run by women could offer pointers for a route to the White House.",
-          "journalists": null
-        }
-      ]
+  "articles": [
+    {
+      "id": 3379118474,
+      "title": "Driverless taxis set to launch in UK as soon as September",
+      "link": "https://www.bbc.com/news/articles/czej9n578k9o?at_medium=RSS&at_campaign=rss",
+      "description": "Waymo has laid out plans for a robotaxi service in London with a pilot scheme due to begin in April.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/49e4/live/62fabfc0-fcf6-11f0-b7e1-afb6d0884c18.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Wed, 28 Jan 2026 23:22:48 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.245060"
     },
-    "cnn": {
-      "rss": "http://rss.cnn.com/rss/edition.rss",
-      "link": "http://edition.cnn.com/",
-      "articles": [
-        {
-          "source": "cnn",
-          "url": "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-          "title": "Haberman reveals why Trump attacked judge and his family in speech",
-          "published": null,
-          "images": "https://media.cnn.com/api/v1/images/stellar/prod/230405085526-maggie-haberman.jpg?c=16x9&q=w_800,c_fill",
-          "videos": null,
-          "description": "How relevant is this ad to you?\nVideo player was slow to load content Video content never loaded Ad froze or did not finish loading Video content did not start after ad Audio on ad was too loud Other issues",
-          "journalists": null
-        },
-        {
-          "source": "cnn",
-          "url": "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
-          "title": "Video shows moment of deadly explosion at cafe in Russia",
-          "published": null,
-          "images": "https://media.cnn.com/api/v1/images/stellar/prod/230402131233-01-russia-cafe-explosion-0402.jpg?c=16x9&q=w_800,c_fill",
-          "videos": null,
-          "description": "How relevant is this ad to you?\nVideo player was slow to load content Video content never loaded Ad froze or did not finish loading Video content did not start after ad Audio on ad was too loud Other issues",
-          "journalists": null
-        },
-        {
-          "source": "cnn",
-          "url": "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-          "title": "Chinese spy balloon was able to transmit information back to Beijing",
-          "published": null,
-          "images": "https://media.cnn.com/api/v1/images/stellar/prod/230211075054-chinese-spy-balloon-recovery-020523.jpg?c=16x9&q=w_800,c_fill",
-          "videos": null,
-          "description": "The Chinese spy balloon that transited the US earlier this year was able to capture imagery and collect some signals intelligence from US military sites, a source familiar with the matter tells CNN.",
-          "journalists": [
-            "Natasha Bertrand"
-          ]
-        },
-        {
-          "source": "cnn",
-          "url": "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
-          "title": "Beijing promised to \u2018fight back\u2019 over Taiwan leader\u2019s US visit. But this time it has more to lose",
-          "published": null,
-          "images": "https://media.cnn.com/api/v1/images/stellar/prod/230403194210-01-us-china-taiwan-tension.jpg?c=16x9&q=w_800,c_fill",
-          "videos": null,
-          "description": "An anticipated meeting between Taiwan\u2019s President Tsai Ing-wen and US House Speaker Kevin McCarthy in California this week has sparked concerns of a repeat of the pressure campaign China launched last year when then-Speaker Nancy Pelosi visited Taipei.",
-          "journalists": [
-            "Simone Mccarthy"
-          ]
-        }
-      ]
+    {
+      "id": 226435920,
+      "title": "Iran's internet is returning - but not for everyone",
+      "link": "https://www.bbc.com/news/articles/cz7y2ddgl23o?at_medium=RSS&at_campaign=rss",
+      "description": "The country cut off internet access on 8 January following a government crackdown on protesters.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/ff96/live/71eb3020-fc4f-11f0-9aca-0d1869acdee8.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Wed, 28 Jan 2026 17:54:08 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.245092"
     },
-    "foxnews": {
-      "rss": "http://feeds.foxnews.com/foxnews/latest",
-      "link": "http://www.foxnews.com/",
-      "articles": [
-        {
-          "source": "foxnews",
-          "url": "https://www.foxnews.com/us/defense-secretary-lloyd-austin-revokes-plea-deal-9-11-terrorists",
-          "title": "Biden-Harris administration backtracks, revokes plea deal for 9/11 terrorists",
-          "published": null,
-          "images": "https://static.foxnews.com/foxnews.com/content/uploads/2021/09/Khalid-Sheikh-Mohammed.jpg",
-          "videos": null,
-          "description": "Defense Secretary Lloyd J. Austin III revoked a plea agreement reached earlier this week with the accused mastermind of the Sept. 11, 2001, attacks and two alleged accomplices.",
-          "journalists": [
-            "Stepheny Price Bill Mears"
-          ]
-        },
-        {
-          "source": "foxnews",
-          "url": "https://www.foxnews.com/media/sean-hannity-kamala-help-state-run-media-mob-trying-obscure-her-record",
-          "title": "SEAN HANNITY: Kamala, with the help of the state-run media mob, is trying to obscure her record",
-          "published": null,
-          "images": "https://static.foxnews.com/foxnews.com/content/uploads/2024/05/Sean-Hannity-Michael-Cohen-is-hell-bent-on-revenge.jpg",
-          "videos": null,
-          "description": "Fox News host Sean Hannity takes a hit at Vice President Kamala Harris' record as the presidential election is 95 days away on \"Hannity.\"",
-          "journalists": [
-            "Fox News Staff"
-          ]
-        },
-        {
-          "source": "foxnews",
-          "url": "https://www.foxnews.com/sports/reigning-cy-young-award-winner-blake-snell-throws-no-hitter",
-          "title": "Reigning Cy Young Award winner Blake Snell throws no-hitter",
-          "published": null,
-          "images": "https://static.foxnews.com/foxnews.com/content/uploads/2024/08/blake-snell.jpg",
-          "videos": null,
-          "description": "In his first 201 starts, Blake Snell had never recorded all three outs of the eighth inning - in his 202nd on Friday, he pitched a no-hitter.",
-          "journalists": [
-            "Ryan Morik"
-          ]
-        },
-        {
-          "source": "foxnews",
-          "url": "https://www.foxnews.com/media/jesse-watters-secret-service-makes-shocking-admission-after-trump-assassination-attempt",
-          "title": "JESSE WATTERS: Secret Service makes 'shocking admission' after Trump assassination attempt",
-          "published": null,
-          "images": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/b5659a77-b0af-4281-b4bd-8fea11247b46/c8f16fa6-1236-49a9-85dd-cea8f6890f02/1280x720/match/image.jpg",
-          "videos": null,
-          "description": "Fox News host Jesse Watters reacts to the U.S. Secret Service's first press conference since the assassination attempt on former President Trump.",
-          "journalists": [
-            "Fox News Staff"
-          ]
-        }
-      ]
+    {
+      "id": 2716154561,
+      "title": "Amazon confirms 16,000 job cuts after accidental email",
+      "link": "https://www.bbc.com/news/articles/cx2ywzxlxnlo?at_medium=RSS&at_campaign=rss",
+      "description": "The technology giant confirmed the redundancies hours after it told staff in an email sent in error.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/ceca/live/1b3c5410-faf7-11f0-8d99-4d63080b9583.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Wed, 28 Jan 2026 13:11:09 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.245113"
     },
-    "nytimes_frontpage": {
-      "rss": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-      "link": "https://nytimes.com/",
-      "articles": [
-        {
-          "source": "nytimes_frontpage",
-          "url": "https://www.nytimes.com/2024/08/03/world/middleeast/iran-security-response-hamas-assassination.html",
-          "title": "Iran Arrests Dozens in Search for Suspects in Killing of Hamas Leader",
-          "published": null,
-          "images": "https://static01.nyt.com/images/2024/08/03/multimedia/03iran-security-zphq/03iran-security-zphq-facebookJumbo.jpg",
-          "videos": null,
-          "description": "Iran has begun a sweeping investigation into the assassination of Ismail Haniyeh, with its intensity a sign of how damaging and shocking the security failure was.",
-          "journalists": [
-            "Farnaz Fassihi"
-          ]
-        },
-        {
-          "source": "nytimes_frontpage",
-          "url": "https://www.nytimes.com/2024/08/02/world/middleeast/us-iran-israel-aircraft.html",
-          "title": "U.S. to Send More Combat Aircraft and Warships to Middle East, Officials Say",
-          "published": null,
-          "images": "https://static01.nyt.com/images/2024/08/02/multimedia/02dc-fighters-ktlh/02dc-fighters-ktlh-facebookJumbo.jpg",
-          "videos": null,
-          "description": "Defense Secretary Lloyd J. Austin III directed the new deployments after speaking with his Israeli counterpart.",
-          "journalists": [
-            "Eric Schmitt",
-            "Helene Cooper"
-          ]
-        },
-        {
-          "source": "nytimes_frontpage",
-          "url": "https://www.nytimes.com/2024/08/02/us/politics/911-plotters-plea-deal.html",
-          "title": "Defense Secretary Revokes Plea Deal for Accused Sept. 11 Plotters",
-          "published": null,
-          "images": "https://static01.nyt.com/images/2024/08/02/multimedia/02dc-gitmo-deal-cjtg/02dc-gitmo-deal-cjtg-facebookJumbo.jpg",
-          "videos": null,
-          "description": "Defense Secretary Lloyd J. Austin III assumed direct oversight of the case and effectively put the death penalty back on the table.",
-          "journalists": [
-            "Carol Rosenberg"
-          ]
-        },
-        {
-          "source": "nytimes_frontpage",
-          "url": "https://www.nytimes.com/2024/08/02/us/trump-tactic-suspicion-harris.html",
-          "title": "Not One of Us: Trump Uses Old Tactic to Sow Suspicion About Harris",
-          "published": null,
-          "images": "https://static01.nyt.com/images/2024/08/02/multimedia/02pol-othering-harris-topart-zmcw/02pol-othering-harris-topart-zmcw-facebookJumbo.jpg",
-          "videos": null,
-          "description": "Politicians have long cast their opponents as outsiders. But Donald J. Trump has taken the strategy to the next level against Kamala Harris.",
-          "journalists": [
-            "Adam Nagourney"
-          ]
-        }
-      ]
+    {
+      "id": 3185651028,
+      "title": "Government offers UK adults free AI training for work",
+      "link": "https://www.bbc.com/news/articles/cp37prvp072o?at_medium=RSS&at_campaign=rss",
+      "description": "The online lessons give advice on things such as how to prompt chatbots or complete admin tasks.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/10c9/live/c2700050-fc3d-11f0-851f-553096e4fe99.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Wed, 28 Jan 2026 11:50:21 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.245102"
     },
-    "nytimes_international": {
-      "rss": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "link": "https://nytimes.com/",
-      "articles": [
-        {
-          "source": "nytimes_international",
-          "url": "https://www.nytimes.com/2024/08/03/world/middleeast/iran-security-response-hamas-assassination.html",
-          "title": "Iran Arrests Dozens in Search for Suspects in Killing of Hamas Leader",
-          "published": null,
-          "images": "https://static01.nyt.com/images/2024/08/03/multimedia/03iran-security-zphq/03iran-security-zphq-facebookJumbo.jpg",
-          "videos": null,
-          "description": "Iran has begun a sweeping investigation into the assassination of Ismail Haniyeh, with its intensity a sign of how damaging and shocking the security failure was.",
-          "journalists": [
-            "Farnaz Fassihi"
-          ]
-        },
-        {
-          "source": "nytimes_international",
-          "url": "https://www.nytimes.com/2024/08/02/world/asia/to-lam-vietnam-leader.html",
-          "title": "To Lam Confirmed as Vietnam\u2019s Top Leader Until at Least 2026",
-          "published": null,
-          "images": "https://static01.nyt.com/images/2024/08/03/multimedia/03vietnam-lam-hfo-cjkp/03vietnam-lam-hfo-cjkp-facebookJumbo.jpg",
-          "videos": null,
-          "description": "Mr. Lam had been filling the post of general secretary temporarily since the death of his predecessor in July. Now he is in position to consolidate power.",
-          "journalists": [
-            "Damien Cave"
-          ]
-        },
-        {
-          "source": "nytimes_international",
-          "url": "https://www.nytimes.com/2024/08/02/world/europe/russia-putin-germany-prison-swap-krasikov-gershkovich.html",
-          "title": "Germany Grapples With \u2018Difficult Decision\u2019 in Prisoner Swap",
-          "published": null,
-          "images": "https://static01.nyt.com/images/2024/08/02/multimedia/02russia-germany-01-chfz/02russia-germany-01-chfz-facebookJumbo.jpg",
-          "videos": null,
-          "description": "By releasing a convicted assassin, Germany played a critical role in securing the freedom of 16 people held in Russia. But the decision has raised questions about political influence in legal cases.",
-          "journalists": [
-            "Neil Macfarquhar",
-            "Christopher F. Schuetze"
-          ]
-        },
-        {
-          "source": "nytimes_international",
-          "url": "https://www.nytimes.com/2024/08/03/world/asia/myanmar-airstrikes-sanctions-evasion.html",
-          "title": "Bombs Rain Down in Myanmar as Junta Evades Sanctions to Buy Jet Fuel",
-          "published": null,
-          "images": "https://static01.nyt.com/images/2024/07/15/multimedia/00Myanmar-jetfuel-jgmh/00Myanmar-jetfuel-jgmh-facebookJumbo.jpg",
-          "videos": null,
-          "description": "U Har San and his wife crawled under a table, and their daughter, eight months pregnant, hid under a bed.\nBombs rained down, he said, even though no rebel fighters were in their village.\nOne bomb killed the mother-to-be, Ma Zar Zar Win.\n\u201cShe was our only daughter, and now our family line has been cut off,\u201d Mr. Har San said.\nThe airstrikes have also taken a heavy toll on resistance fighters.",
-          "journalists": [
-            "Richard C. Paddock"
-          ]
-        }
-      ]
+    {
+      "id": 1771421274,
+      "title": "Can Venezuela\u2019s Delcy Rodr\u00edguez become a Latin American Deng Xiaoping?",
+      "link": "https://www.theguardian.com/world/2026/jan/28/can-venezuelas-delcy-rodriguez-become-a-latin-american-deng-xiaoping",
+      "description": "Maduro\u2019s Sorbonne-educated successor is talking up an era of \u2018reform and opening up\u2019 modelled on China\u2019s post-Mao boomAfter years of political and social upheaval, hunger and despair, the Great Helmsman departs and is replaced by a francophile economic reformer who catapults a traumatised country in",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/1a6c80877e00dcb07fdd19eb896b16458fe0e059/250_0_2500_2000/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=262520df83fea2e1964ebc03004eae53",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Tom Phillips Latin America correspondent",
+        "Photograph: Jorge Silva/Reuters"
+      ],
+      "publishedAt": "Wed, 28 Jan 2026 04:00:02 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705755"
     },
-    "theguardian": {
-      "rss": "https://www.theguardian.com/uk/rss",
-      "link": "https://www.theguardian.com/international",
-      "articles": [
-        {
-          "source": "theguardian",
-          "url": "https://www.theguardian.com/uk-news/article/2024/aug/02/beer-barrels-and-stones-thrown-at-police-in-sunderland-as-uk-unrest-rolls-on",
-          "title": "Eight people arrested and three police injured in Sunderland after another night of disorder",
-          "published": null,
-          "images": "https://i.guim.co.uk/img/media/9db4e5e956258494dac300faac7a6f5449aa2a8c/242_0_3597_2159/master/3597.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a725696296ab89aa562f6d328b6828e8",
-          "videos": null,
-          "description": "Overturned car set alight and beer barrels and stones thrown at police amid face-off with hundreds of demonstrators<br>",
-          "journalists": [
-            "Nadeem Badshah",
-            "Robyn Vinter"
-          ]
-        },
-        {
-          "source": "theguardian",
-          "url": "https://www.theguardian.com/us-news/article/2024/aug/02/lloyd-austin-revokes-plea-deal-9-11",
-          "title": "Plea deal for accused 9/11 plotters revoked by Pentagon chief Lloyd Austin",
-          "published": null,
-          "images": "https://i.guim.co.uk/img/media/7a03f120b1bf7dabb7c3b7d096cd7d49bc5a2d85/0_13_3633_2180/master/3633.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a162cb287f62cd24216474d4a3da5e5c",
-          "videos": null,
-          "description": "US secretary of defense pulls rank and withdraws agreements for trio accused of involvement in 2001 terror attacks",
-          "journalists": [
-            "Aben\u00e9 Clayton"
-          ]
-        },
-        {
-          "source": "theguardian",
-          "url": "https://www.theguardian.com/sport/live/2024/aug/03/paris-2024-olympics-day-eight-athletics-rowing-mens-cycling-road-race-and-more-live",
-          "title": "Paris 2024 Olympics day eight: athletics, rowing, men\u2019s cycling road race and more \u2013 live",
-          "published": null,
-          "images": "https://i.guim.co.uk/img/media/d18be666c535eac1631ec4a36131ef83458bbf85/0_0_7200_4321/master/7200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=a32b299d3d1739e7f78fb23811ad55e7",
-          "videos": null,
-          "description": "Join our writers for the latest from Paris 2024, with action on the track, road, in the pool and much more",
-          "journalists": [
-            "Jonathan Howcroft",
-            "Martin Belam",
-            "Barry Glendenning",
-            "Geoff Lemon",
-            "Yara El-Shaboury"
-          ]
-        },
-        {
-          "source": "theguardian",
-          "url": "https://www.theguardian.com/world/article/2024/aug/03/us-bolsters-military-presence-in-middle-east-as-threat-of-regional-escalation-intensifies",
-          "title": "US bolsters military presence in Middle East as threat of regional escalation intensifies",
-          "published": null,
-          "images": "https://i.guim.co.uk/img/media/dd40103e92438ba28ffe5022f021d1c21c003147/0_98_3490_2094/master/3490.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c43e2cb467583f5eb291b674696777f7",
-          "videos": null,
-          "description": "Washington is bracing for Iran and its allies to respond to the killing of Hamas leader Ismail Haniyeh, which Tehran blames on Israel",
-          "journalists": null
-        }
-      ]
+    {
+      "id": 3679249494,
+      "title": "What to know about the Trump indictment on the eve of his court appearance",
+      "link": "https://www.cnn.com/collections/intl-trump-040223/",
+      "description": "",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230403165727-03-trump-trump-tower-230403-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "Wed, 05 Apr 2023 22:50:06 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.971464"
     },
-    "washingtonpost": {
-      "rss": "http://feeds.washingtonpost.com/rss/world",
-      "link": "https://www.washingtonpost.com/",
-      "articles": []
+    {
+      "id": 2170892836,
+      "title": "Haberman reveals why Trump attacked judge and his family in speech",
+      "link": "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+      "description": "CNN political contributor Maggie Haberman explains the reasoning behind Donald Trump's attacks on the judge and his family during a speech at his Mar-a-Lago resort after he was arraigned on felony charges.",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230405092519-trump-haberman-split-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "Wed, 05 Apr 2023 13:30:09 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.971454"
+    },
+    {
+      "id": 1567772432,
+      "title": "TikTok US pushes back on claims it is censoring content",
+      "link": "https://www.bbc.com/news/articles/ckgjedpn8p8o?at_medium=RSS&at_campaign=rss",
+      "description": "Thousands of people claim political content is being suppressed after the US operation was spun off.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/3d0c/live/05b02900-fade-11f0-8165-918f1a8ba904.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Tue, 27 Jan 2026 20:25:11 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.245133"
+    },
+    {
+      "id": 1156373280,
+      "title": "Pornhub to restrict access for UK users from next week",
+      "link": "https://www.bbc.com/news/articles/czr428rxg57o?at_medium=RSS&at_campaign=rss",
+      "description": "The changes mean only those who have a Pornhub account and have verified their age will be able to access it in the UK soon.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/7fca/live/9e20ff70-fc19-11f0-b385-5f48925de19a.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Tue, 27 Jan 2026 18:38:43 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.245123"
+    },
+    {
+      "id": 163131711,
+      "title": "Beijing promised to 'fight back' over Taiwan leader's US visit. But this time it has more to lose",
+      "link": "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
+      "description": "An anticipated meeting between Taiwan's President Tsai Ing-wen and US House Speaker Kevin McCarthy in California this week has sparked concerns of a repeat of the pressure campaign China launched last year when then-Speaker Nancy Pelosi visited Taipei.",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230403194210-01-us-china-taiwan-tension-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "Tue, 04 Apr 2023 07:49:53 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.971521"
+    },
+    {
+      "id": 751886319,
+      "title": "Video shows moment of deadly explosion at cafe in Russia",
+      "link": "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
+      "description": "A well-known Russian military blogger, Vladlen Tatarsky, was killed in an explosion at a cafe in St. Petersburg, authorities said. CNN's Matthew Chance reports.",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230402131233-01-russia-cafe-explosion-0402-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "Tue, 04 Apr 2023 01:08:44 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.971495"
+    },
+    {
+      "id": 3391124490,
+      "title": "The iPhone just had its best quarter ever",
+      "link": "https://techcrunch.com/2026/01/29/the-iphone-just-had-its-best-quarter-ever/",
+      "description": "Growth in regions like China and India are credited with pushing Apple's phone sales higher than ever.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Lucas Ropek"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 23:57:21 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206408"
+    },
+    {
+      "id": 1935643375,
+      "title": "Who is 'shy and nervous' Villa match-winner Jimoh-Aloba?",
+      "link": "https://www.bbc.com/sport/football/articles/c8j32vezyylo?at_medium=RSS&at_campaign=rss",
+      "description": "Aston Villa match-winner Jamaldeen Jimoh-Aloba is described as \"shy and nervous\" by Morgan Rogers - but the teenager announced himself on the European stage.",
+      "source": "BBC Sports",
+      "category": "Sports",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/66d8/live/86b31130-fd62-11f0-9c09-35264ee739f3.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 23:52:11 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.629062"
+    },
+    {
+      "id": 3079471911,
+      "title": "Guys, I don\u2019t think Tim Cook knows how to monetize AI",
+      "link": "https://techcrunch.com/2026/01/29/guys-i-dont-think-tim-cook-knows-how-to-monetize-ai/",
+      "description": "One intrepid Morgan Stanley analyst dared to ask how Apple will make money on its AI investments. The answer will not shock you.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Amanda Silberling"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 23:51:17 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206416"
+    },
+    {
+      "id": 2390968564,
+      "title": "Agents in Minneapolis could be pulled back if local officials cooperate, border tsar says",
+      "link": "https://www.bbc.com/news/articles/cvg1l8zgglpo?at_medium=RSS&at_campaign=rss",
+      "description": "Tom Homan said the immigration operation would be more \"targeted\", as the Trump administration works to calm frustrations both in the city and on Capitol Hill",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/36e9/live/b45d5c70-fd4a-11f0-b028-cf183ca533c1.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 23:47:30 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122488"
+    },
+    {
+      "id": 3461461817,
+      "title": "We Found Two Theaters With Sold-Out \u2018Melania\u2019 Opening Day Screenings",
+      "link": "https://www.wired.com/story/we-found-2-theaters-with-sold-out-melania-opening-day-screenings/",
+      "description": "A WIRED analysis of nearly 1,400 Friday showtimes of Melania found only two with no tickets available. Both are before 3 pm.",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/697bbe8b5e7ff27e27dc8ac3/master/pass/Melania-Opening-Day-Screenings-Culture-MCDMELA_ZU002.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "Maddy Varner"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 23:27:49 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311626"
+    },
+    {
+      "id": 3527765466,
+      "title": "Canada\u2019s Carney hails new trade deals, \u2018expects\u2019 US to respect sovereignty",
+      "link": "https://www.aljazeera.com/news/2026/1/29/canadas-carney-hails-new-trade-deals-expects-us-to-respect-sovereignty?traffic_source=rss",
+      "description": "Canadian prime minister has sought to rally &#039;middle powers&#039; to respond to an increasingly unpredictable global climate.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 23:24:16 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270824"
+    },
+    {
+      "id": 391251789,
+      "title": "Having that high-deductible health plan might kill you, literally",
+      "link": "https://arstechnica.com/health/2026/01/having-that-high-deductible-health-plan-might-kill-you-literally/",
+      "description": "With ACA tax credits gone, more people are turning to high-deductible plans.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2211388790-1152x648.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Beth Mole",
+        "Getty | \tkrisanapong detraphiphat"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 23:22:58 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576345"
+    },
+    {
+      "id": 4170184757,
+      "title": "US opens probe after a Waymo self-driving car hit a child near a school",
+      "link": "https://www.aljazeera.com/economy/2026/1/29/us-opens-probe-after-a-waymo-self-driving-car-hit-a-child-near-a-school?traffic_source=rss",
+      "description": "The child ran across the street from behind a double-parked SUV towards the school and sustained minor injuries.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 23:11:09 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270833"
+    },
+    {
+      "id": 2127574029,
+      "title": "US spy satellite agency declassifies high-flying Cold War listening post",
+      "link": "https://arstechnica.com/space/2026/01/us-spy-satellite-agency-declassifies-high-flying-cold-war-listening-post/",
+      "description": "The JUMPSEAT satellites loitered over the North Pole to spy on the Soviet Union.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/jumpseat_art1-820x648.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Stephen Clark",
+        "National Reconnaissance Office"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 23:07:05 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576363"
+    },
+    {
+      "id": 2582562295,
+      "title": "What the Success of Coding Agents Teaches Us about AI Systems in General",
+      "link": "https://softwarefordays.com/post/software-is-mostly-all-you-need/",
+      "description": "Article URL: https://softwarefordays.com/post/software-is-mostly-all-you-need/\nComments URL: https://news.ycombinator.com/item?id=46818154\nPoints: 15\n# Comments: 14",
+      "source": "Hacker News",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://news.ycombinator.com/y18.svg",
+      "journalists": [
+        "jbmilgrom"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 23:06:34 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.627901"
+    },
+    {
+      "id": 612300456,
+      "title": "US Justice Department charges man with assault after Ilhan Omar town hall",
+      "link": "https://www.aljazeera.com/news/2026/1/29/us-justice-department-charges-man-with-assault-after-ilhan-omar-town-hall?traffic_source=rss",
+      "description": "As part of the government&#039;s affidavit, an FBI agent testified to the suspect approaching Omar with a syringe.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 23:02:08 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270841"
+    },
+    {
+      "id": 2883173548,
+      "title": "Elon Musk\u2019s SpaceX, Tesla, and xAI in talks to merge, according to reports",
+      "link": "https://techcrunch.com/2026/01/29/elon-musk-spacex-tesla-xai-merger-talks-ipo-reuters/",
+      "description": "This merger would bring the Grok chatbot, Starlink satellites, and SpaceX rockets together under one corporation.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Amanda Silberling, Kirsten Korosec"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 22:47:42 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206424"
+    },
+    {
+      "id": 2432303770,
+      "title": "People complaining about Windows 11 hasn't stopped it from hitting 1 billion users",
+      "link": "https://arstechnica.com/gadgets/2026/01/windows-11-has-hit-1-billion-users-just-a-hair-faster-than-windows-10-did/",
+      "description": "Windows 11 clears a milestone as Windows 10 continues its slow fade.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/02/win11-light-1152x648.jpeg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Andrew Cunningham",
+        "Microsoft"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 22:46:59 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576376"
+    },
+    {
+      "id": 2562833298,
+      "title": "Niger military gov\u2019t says France, Benin, Ivory Coast behind airport attack",
+      "link": "https://www.aljazeera.com/news/2026/1/29/niger-military-govt-says-france-benin-ivory-coast-behind-airport-attack?traffic_source=rss",
+      "description": "&#039;They should be ready to hear us roar,&#039; says military ruler Tiani, who thanked Russian troops for defending airbase.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 22:45:43 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270850"
+    },
+    {
+      "id": 1955822389,
+      "title": "Grid: Forever free, local-first, browser-based 3D printing/CNC/laser slicer",
+      "link": "https://grid.space/stem/",
+      "description": "Article URL: https://grid.space/stem/\nComments URL: https://news.ycombinator.com/item?id=46817813\nPoints: 91\n# Comments: 30",
+      "source": "Hacker News",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://news.ycombinator.com/y18.svg",
+      "journalists": [
+        "cyrusradfar"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 22:38:57 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.627967"
+    },
+    {
+      "id": 4172252104,
+      "title": "Cutting Up Curved Things (With Math)",
+      "link": "https://campedersen.com/tessellation",
+      "description": "Article URL: https://campedersen.com/tessellation\nComments URL: https://news.ycombinator.com/item?id=46817764\nPoints: 19\n# Comments: 1",
+      "source": "Hacker News",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://news.ycombinator.com/y18.svg",
+      "journalists": [
+        "ecto"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 22:34:54 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.627991"
+    },
+    {
+      "id": 1163409176,
+      "title": "Millions to get \u00a3150 off energy bills for further five years",
+      "link": "https://www.bbc.com/news/articles/cedw468e50wo?at_medium=RSS&at_campaign=rss",
+      "description": "The government has confirmed the discount for six million low-income households will continue for the rest of the decade.",
+      "source": "BBC Business",
+      "category": "Business",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/c24e/live/769fe0b0-fd22-11f0-b988-cf853dfdf506.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 22:31:03 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.393964"
+    },
+    {
+      "id": 714501853,
+      "title": "\u2018Uncanny Valley\u2019: Minneapolis Misinformation, TikTok\u2019s New Owners, and Moltbot Hype",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-ice-minneapolis-tiktok-moltbot/",
+      "description": "On this episode of Uncanny Valley, we dive into the news that's held our attention this week: ICE activity as it's been unfolding in Minnesota.",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/697aa61dd43d64ebd6c2a9c0/master/pass/Uncanny-Valley-All-Things-ICE-Politics-2255755460.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "Brian Barrett, Zo\u00eb Schiffer, Tim Marchman"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 22:19:59 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311641"
+    },
+    {
+      "id": 4065261686,
+      "title": "Amazon is reportedly in talks to invest $50B in OpenAI",
+      "link": "https://techcrunch.com/2026/01/29/amazon-is-reportedly-in-talks-to-invest-50-billion-in-openai/",
+      "description": "If a deal materializes, it would mean Amazon is backing competing startups in the race for AI supremacy.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Lucas Ropek"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 22:11:09 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206431"
+    },
+    {
+      "id": 4290861385,
+      "title": "How often do AI chatbots lead users down a harmful path?",
+      "link": "https://arstechnica.com/ai/2026/01/how-often-do-ai-chatbots-lead-users-down-a-harmful-path/",
+      "description": "Anthropic's latest paper on \"user disempowerment\" has some troubling findings.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-758288177-1152x648.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Kyle Orland",
+        "Getty Images"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 22:05:59 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576390"
+    },
+    {
+      "id": 1471357049,
+      "title": "Burkina Faso\u2019s military government dissolves political parties",
+      "link": "https://www.aljazeera.com/news/2026/1/29/burkina-faso-military-government-dissolves-political-parties?traffic_source=rss",
+      "description": "Interior Minister says multiplication of political parties has fuelled divisions and weakened social cohesion.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 21:53:10 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270858"
+    },
+    {
+      "id": 3558909260,
+      "title": "Medium gives employees Friday off to participate in national strike protesting ICE",
+      "link": "https://techcrunch.com/2026/01/29/medium-gives-employees-friday-off-to-participate-in-national-strike-protesting-ice/",
+      "description": "Activists behind the general strike are calling for \"no work, no school, and no shopping\" amid a push to defund ICE, which has escalated raids in U.S. cities, killing several people, including two U.S. citizens earlier this month in Minneapolis.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Sarah Perez"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 21:49:15 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206438"
+    },
+    {
+      "id": 3356816399,
+      "title": "Microsoft stock plunges as Wall Street questions AI investments",
+      "link": "https://www.aljazeera.com/economy/2026/1/29/microsoft-stock-plunges-as-wall-street-questions-ai-investments?traffic_source=rss",
+      "description": "The drop comes amid stalling growth for its cloud computing software as OpenAI investments are questioned.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 21:37:25 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270866"
+    },
+    {
+      "id": 977005484,
+      "title": "Microsoft won\u2019t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says",
+      "link": "https://techcrunch.com/2026/01/29/microsoft-wont-stop-buying-ai-chips-from-nvidia-amd-even-after-launching-its-own-nadella-says/",
+      "description": "Microsoft says its own chip leapfrogs those made by other cloud providers like Amazon and Google. But it needs more.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Julie Bort"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 21:21:46 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206446"
+    },
+    {
+      "id": 119933069,
+      "title": "Trump says Putin will not attack Ukraine cities during cold week",
+      "link": "https://www.bbc.com/news/articles/c4g4yj92kwro?at_medium=RSS&at_campaign=rss",
+      "description": "Russia has not confirmed it agreed to Trump's request, but Ukraine's president said he expected Vladimir Putin's promise to be kept.",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/61a6/live/6382f330-fd51-11f0-9972-d3f265c101c6.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 21:21:35 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122575"
+    },
+    {
+      "id": 1650650796,
+      "title": "Palestinian journalist Bisan Owda regains TikTok account after outcry",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/1/29/palestinian-journalist-bisan-owda-regains-tiktok-account-after-outcry?traffic_source=rss",
+      "description": "Palestinian journalist Bisan Owda, known for sharing videos from Gaza, says she\u2019s regained access to her TikTok.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 21:20:28 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270875"
+    },
+    {
+      "id": 2727603132,
+      "title": "Joshua pays emotional tribute in new video",
+      "link": "https://www.bbc.com/sport/boxing/articles/c4g0y415qlko?at_medium=RSS&at_campaign=rss",
+      "description": "Anthony Joshua posts an emotional YouTube video thanking fans for their support following the deaths of his two close friends in a car crash in Nigeria.",
+      "source": "BBC Sports",
+      "category": "Sports",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/d64f/live/caa59440-fd52-11f0-b028-cf183ca533c1.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 21:03:18 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.629441"
+    },
+    {
+      "id": 2758426376,
+      "title": "The WiFi only works when it's raining (2024)",
+      "link": "https://predr.ag/blog/wifi-only-works-when-its-raining/",
+      "description": "Article URL: https://predr.ag/blog/wifi-only-works-when-its-raining/\nComments URL: https://news.ycombinator.com/item?id=46816357\nPoints: 74\n# Comments: 24",
+      "source": "Hacker News",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://news.ycombinator.com/y18.svg",
+      "journalists": [
+        "epicalex"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 20:47:36 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.628014"
+    },
+    {
+      "id": 273402709,
+      "title": "British girl, 7, swept out to sea on holiday in Morocco",
+      "link": "https://www.bbc.com/news/articles/cm2j0l85dvro?at_medium=RSS&at_campaign=rss",
+      "description": "Inaayah Makda remains missing after being caught out by a rapidly incoming tide, a relative has said.",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/ff1b/live/0ae40ba0-fd25-11f0-b988-cf853dfdf506.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 20:44:10 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122593"
+    },
+    {
+      "id": 717836845,
+      "title": "'He enjoyed hurting people': Teen attacked others before murdering schoolboy, 12",
+      "link": "https://www.bbc.com/news/articles/c0eryxnqyyvo?at_medium=RSS&at_campaign=rss",
+      "description": "Det Insp Joe Davenport says the killer attacked his victims in Birmingham for \"violence sake\".",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/cc4b/live/f8337ee0-fd2f-11f0-a8b8-bdd2c5f9bcad.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 20:31:50 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122535"
+    },
+    {
+      "id": 170797672,
+      "title": "Fintech firm Marquis blames hack at firewall provider SonicWall for its data breach",
+      "link": "https://techcrunch.com/2026/01/29/fintech-firm-marquis-blames-hack-at-firewall-provider-sonicwall-for-its-data-breach/",
+      "description": "The fintech giant said it plans to \"seek recoupment of any expenses\" from its firewall provider SonicWall after a 2025 data breach exposed customer firewall configurations.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Zack Whittaker"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 20:31:43 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206453"
+    },
+    {
+      "id": 1717371775,
+      "title": "Google Project Genie lets you create interactive worlds from a photo or prompt",
+      "link": "https://arstechnica.com/google/2026/01/google-project-genie-lets-you-create-interactive-worlds-from-a-photo-or-prompt/",
+      "description": "Project Genie lets you generate new worlds 60 seconds at a time, but only if you pay for AI Ultra.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/Genie-worlds-1152x648.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Ryan Whitwam",
+        "Google"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 20:26:50 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576402"
+    },
+    {
+      "id": 2367191572,
+      "title": "\u2018Melania\u2019: What to know about the US first lady\u2019s new documentary",
+      "link": "https://www.aljazeera.com/news/2026/1/29/melania-what-to-know-about-the-us-first-ladys-new-documentary?traffic_source=rss",
+      "description": "The film&#039;s high budget has raised questions about efforts by powerful donors to win favour with the White House.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 20:15:48 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270884"
+    },
+    {
+      "id": 3377768301,
+      "title": "How Democrats want to reform DHS \u2013 and why some Republicans are open to their demands",
+      "link": "https://www.npr.org/2026/01/29/nx-s1-5693050/trump-minneapolis-government-shutdown-funding-immigration-republicans",
+      "description": "A spending agreement under consideration in the Senate would temporarily fund the Department of Homeland Security while lawmakers negotiate provisions to rein in federal immigration agents.",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "Ximena Bustillo"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 20:10:23 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991013"
+    },
+    {
+      "id": 1756763340,
+      "title": "Satya Nadella insists people are using Microsoft\u2019s Copilot AI a lot",
+      "link": "https://techcrunch.com/2026/01/29/satya-nadella-insists-people-are-using-microsofts-copilot-ai-a-lot/",
+      "description": "With Microsoft spending many billions on data centers, and rumors that no one is using its AI, CEO Satya Nadella shared some usage numbers.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Julie Bort"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 20:06:56 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206460"
+    },
+    {
+      "id": 3109981347,
+      "title": "The 45 Best Movies on HBO Max Right Now (February 2026)",
+      "link": "https://www.wired.com/story/best-movies-hbo-max-right-now/",
+      "description": "One Battle After Another, The Smashing Machine, and Sinners are just a few of the movies you should be watching on HBO Max this month.",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/696fc702e199dabd21f9dbd5/master/pass/HBO-Movie-Guide-Smashing-Machine-Culture-TSM_01555R.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "Jennifer M. Wood, WIRED Staff"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 20:00:00 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311652"
+    },
+    {
+      "id": 2985870424,
+      "title": "Comcast keeps losing customers despite price guarantee and unlimited data",
+      "link": "https://arstechnica.com/tech-policy/2026/01/comcast-keeps-losing-customers-despite-price-guarantee-and-unlimited-data/",
+      "description": "Comcast overhauled Internet plans to stop customer losses. It isn't working yet.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/04/comcast-1-1152x648-1745527748.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Jon Brodkin",
+        "Getty Images | Cheng Xin"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:51:45 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576413"
+    },
+    {
+      "id": 772488545,
+      "title": "Brady touts Coleman: 'Stood on the table' for WR",
+      "link": "https://www.espn.com/nfl/story/_/id/47770014/joe-brady-supports-keon-coleman-bills-owner-comments",
+      "description": "New Bills coach Joe Brady expressed his support for wide receiver Keon Coleman, stating that \"Keon Coleman is going to be a Buffalo Bill.\"",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "Alaina Getzenberg"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:49:25 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470327"
+    },
+    {
+      "id": 3408970708,
+      "title": "Seahawks GM: Darnold 'hasn't flinched' over injury...",
+      "link": "https://www.espn.com/nfl/story/_/id/47771611/seahawks-darnold-flinched-playing-injury",
+      "description": "Seahawks quarterback Sam Darnold's oblique injury might have caused some members of the team to panic, but Darnold \"hasn't flinched\" through this postseason, GM John Schneider said.",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "Brady Henderson"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:49:25 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470340"
+    },
+    {
+      "id": 2933026123,
+      "title": "Pats Vrabel 'not' too worried about Maye's health",
+      "link": "https://www.espn.com/nfl/story/_/id/47769766/patriots-vrabel-not-too-worried-qb-maye-shoulder",
+      "description": "Patriots coach Mike Vrabel said Thursday that he's not too concerned about QB Drake Maye's injured shoulder as the team begins preparations for Super Bowl LX.",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "Mike Reiss"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:49:25 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470353"
+    },
+    {
+      "id": 2485813767,
+      "title": "Eagles hire Packers QB coach Mannion as OC",
+      "link": "https://www.espn.com/nfl/story/_/id/47770736/eagles-hire-packers-qb-coach-sean-mannion-new-oc",
+      "description": "The Eagles are hiring Packers quarterbacks coach Sean Mannion as their offensive coordinator.",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "Tim McManus"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:49:24 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470347"
+    },
+    {
+      "id": 3164718102,
+      "title": "Bills' Allen has surgery, expects quick recovery",
+      "link": "https://www.espn.com/nfl/story/_/id/47770595/bills-josh-allen-expects-ready-otas-foot-surgery",
+      "description": "Bills quarterback Josh Allen says he expects to be ready for OTAs after having foot surgery this week.",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "Alaina Getzenberg"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:49:24 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470359"
+    },
+    {
+      "id": 3097642645,
+      "title": "Record $1.76B expected to be bet on Super Bowl",
+      "link": "https://www.espn.com/nfl/story/_/id/47770542/aga-expects-record-176-billion-bet-super-bowl-lx",
+      "description": "Approximately $1.76 billion is expected to be bet on Super Bowl LX with U.S. sportsbooks, a nearly 27% year-over-year increase, according to the AGA.",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "David Purdum"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:49:24 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470366"
+    },
+    {
+      "id": 271419105,
+      "title": "Sources: Hayes, Bryant accept slam dunk invites",
+      "link": "https://www.espn.com/nba/story/_/id/47769695/lakers-hayes-spurs-bryant-accept-slam-dunk-invites",
+      "description": "Lakers center Jaxson Hayes and Spurs rookie Carter Bryant have accepted invitations to the NBA slam dunk contest at All-Star Weekend in Los Angeles, sources said.",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "ESPN"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:49:24 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470372"
+    },
+    {
+      "id": 2934291999,
+      "title": "Sources: Nuggets' Gordon to miss 4-to-6 weeks",
+      "link": "https://www.espn.com/nba/story/_/id/47770248/nuggets-re-evaluate-gordon-hamstring-4-6-weeks",
+      "description": "Denver Nuggets forward Aaron Gordon will be reevaluated in four to six weeks with a right hamstring strain, the team announced Thursday.",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "Associated Press"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:49:24 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470378"
+    },
+    {
+      "id": 2948511015,
+      "title": "\ud83c\udfc8 NFL free agency: Top 50 players available",
+      "link": "https://www.espn.com/nfl/story/_/id/47734163/2026-nfl-free-agency-top-50-ranking-hendrickson-pickens-hall-willis",
+      "description": "Could George Pickens, Breece Hall and Malik Willis land big contracts? Here are the top 50 free agents heading into the offseason.",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "Matt Bowen"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:49:24 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470384"
+    },
+    {
+      "id": 929989591,
+      "title": "The Hallucination Defense",
+      "link": "https://niyikiza.com/posts/hallucination-defense/",
+      "description": "Article URL: https://niyikiza.com/posts/hallucination-defense/\nComments URL: https://news.ycombinator.com/item?id=46815527\nPoints: 40\n# Comments: 114",
+      "source": "Hacker News",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://news.ycombinator.com/y18.svg",
+      "journalists": [
+        "niyikiza"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:45:12 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.628036"
+    },
+    {
+      "id": 1672675037,
+      "title": "The Warriors want Giannis, but does Giannis want t...",
+      "link": "https://www.espn.com/nba/story/_/id/47747441/the-biggest-questions-warriors-ahead-nba-trade-deadline",
+      "description": "Can the Warriors make a deal for Giannis Antetokounmpo? The biggest questions one week out from the trade deadline.",
+      "source": "ESPN",
+      "category": "Sports",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "journalists": [
+        "Anthony Slater"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:42:29 EST",
+      "scrapedAt": "2026-01-29T20:46:02.470390"
+    },
+    {
+      "id": 1517766468,
+      "title": "Flameshot",
+      "link": "https://github.com/flameshot-org/flameshot",
+      "description": "Article URL: https://github.com/flameshot-org/flameshot\nComments URL: https://news.ycombinator.com/item?id=46815297\nPoints: 115\n# Comments: 41",
+      "source": "Hacker News",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://news.ycombinator.com/y18.svg",
+      "journalists": [
+        "OsrsNeedsf2P"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:30:35 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.628058"
+    },
+    {
+      "id": 2442409365,
+      "title": "She'll mess with Texas: Nurse keeps mailing abortion pills, despite Paxton lawsuit",
+      "link": "https://arstechnica.com/tech-policy/2026/01/i-dont-fear-ken-paxton-nurse-vows-to-keep-shipping-abortion-pills-to-texas/",
+      "description": "Texas sues Delaware nurse practitioner shipping out hundreds of abortion pills each month.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2203850225-1024x648.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Ashley Belanger",
+        "Natalie Behring / Stringer | Getty Images News"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:19:11 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576422"
+    },
+    {
+      "id": 398752019,
+      "title": "Trump orders immediate reopening of commercial airspace over Venezuela",
+      "link": "https://www.theguardian.com/world/2026/jan/29/trump-reopens-commercial-airspace-venezuela",
+      "description": "Order allows direct flights from US to Venezuela, as major oil companies already on ground to assess potential operationsDonald Trump has ordered the immediate reopening of commercial airspace over Venezuela, weeks after US military forces toppled the dictator Nicol\u00e1s Maduro.Speaking at the White Ho",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/62cc851f37d0d7b5c97681c8154f55d975846832/378_0_3744_2994/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=761e224bfbea8cc3c2aa3879f0413a34",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Joseph Gedeon in Washington",
+        "Photograph: Bloomberg/Getty Images"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:13:12 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705705"
+    },
+    {
+      "id": 1722316797,
+      "title": "AI-Generated Anti-ICE Videos Are Getting the Fanfic Treatment",
+      "link": "https://www.wired.com/story/anti-ice-videos-are-getting-the-ai-fanfic-treatment-online/",
+      "description": "Across Instagram and Facebook, AI-generated videos show people of color putting ICE agents in their place. Are they cathartic or just adding to a stew of misinformation?",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/6978d03a04c5e12896469276/master/pass/012726_ICE-vs-AI-Fanfic.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "Jason Parham"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:07:14 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311661"
+    },
+    {
+      "id": 4123022346,
+      "title": "What ice fishing can teach us about making foraging decisions",
+      "link": "https://arstechnica.com/science/2026/01/what-ice-fishing-can-teach-us-about-making-foraging-decisions/",
+      "description": "Social density increases likelihood of sticking with a location. Environmental factors had little influence.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/icefishing1-1152x648.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Jennifer Ouellette",
+        "Petri T. Niemel\u00e4/CC BY-ND"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:00:41 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576432"
+    },
+    {
+      "id": 565705904,
+      "title": "A Yann LeCun\u2013Linked Startup Charts a New Path to AGI",
+      "link": "https://www.wired.com/story/logical-intelligence-yann-lecun-startup-chart-new-course-agi/",
+      "description": "As the world\u2019s largest companies pour hundreds of billions of dollars into large language models, San Francisco-based Logical Intelligence is trying something different in pursuit of AI that can mimic the human brain.",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/697a6362bca412d8ae157370/master/pass/Model-Behavior-Inside-Logical-Intelligence-Business.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "Joel Khalili"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 19:00:00 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311671"
+    },
+    {
+      "id": 2122218537,
+      "title": "Apple buys Israeli startup Q.ai as the AI race heats up",
+      "link": "https://techcrunch.com/2026/01/29/apple-buys-israeli-startup-q-ai-as-the-ai-race-heats-up/",
+      "description": "Q.ai is an Israeli startup specializing in imaging and machine learning, particularly technologies that enable devices to interpret whispered speech and enhance audio in noisy environments.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Lauren Forristal"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 18:58:07 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206468"
+    },
+    {
+      "id": 3621136858,
+      "title": "PlayStation 2 Recompilation Project Is Absolutely Incredible",
+      "link": "https://redgamingtech.com/playstation-2-recompilation-project-is-absolutely-incredible/",
+      "description": "Article URL: https://redgamingtech.com/playstation-2-recompilation-project-is-absolutely-incredible/\nComments URL: https://news.ycombinator.com/item?id=46814743\nPoints: 271\n# Comments: 107",
+      "source": "Hacker News",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://news.ycombinator.com/y18.svg",
+      "journalists": [
+        "croes"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 18:55:38 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.628083"
+    },
+    {
+      "id": 3584901835,
+      "title": "My Mom and Dr. DeepSeek (2025)",
+      "link": "https://restofworld.org/2025/ai-chatbot-china-sick/",
+      "description": "Article URL: https://restofworld.org/2025/ai-chatbot-china-sick/\nComments URL: https://news.ycombinator.com/item?id=46814569\nPoints: 118\n# Comments: 80",
+      "source": "Hacker News",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://news.ycombinator.com/y18.svg",
+      "journalists": [
+        "kieto"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 18:45:27 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.628131"
+    },
+    {
+      "id": 2398884107,
+      "title": "Our Favorite Open Earbuds Are $60 Off",
+      "link": "https://www.wired.com/story/anker-soundcore-aeroclip-deal-126/",
+      "description": "The Anker Soundcore Aeroclip earbuds boast great sound without cutting you off from the outside world.",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/697baa25b07b2f9a1e79e3f5/master/pass/Our%20Favorite%20Open%20Earbuds%20Are%20$60%20Off.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "Brad Bourque"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 18:44:11 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311681"
+    },
+    {
+      "id": 3194534402,
+      "title": "Canada separatists accused of \u2018treason\u2019 after secret talks with US state department",
+      "link": "https://www.theguardian.com/world/2026/jan/29/david-eby-alberta-separatism-treason",
+      "description": "Alberta activists\u2019 covert meetings with US officials revealed, outlining group\u2019s increasingly emboldened effortsCovert meetings between separatist activists in the Canadian province of Alberta and members of Donald Trump\u2019s administration amount to \u201ctreason\u201d, the premier of British Columbia said on T",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/0b54d08590b972c381b8f551e996476450e093c0/691_0_6913_5530/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=070543ee09274ccc41f8dbf02d680d37",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Leyland Cecco in Toronto",
+        "Photograph: Canadian Press/Shutterstock"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 18:39:16 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705721"
+    },
+    {
+      "id": 2584403881,
+      "title": "Palace move for \u00a350m Strand Larsen in doubt",
+      "link": "https://www.bbc.com/sport/football/articles/c89q2qkdx97o?at_medium=RSS&at_campaign=rss",
+      "description": "Crystal Palace's \u00a350m move for Wolves striker Jorgen Strand Larsen is in the balance after the Eagles suggest they could walk away from the deal.",
+      "source": "BBC Sports",
+      "category": "Sports",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/067b/live/2c471120-fd3e-11f0-82c2-6d7a85680d08.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 18:36:06 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.629384"
+    },
+    {
+      "id": 2495914640,
+      "title": "County pays $600,000 to pentesters it arrested for assessing courthouse security",
+      "link": "https://arstechnica.com/security/2026/01/county-pays-600000-to-pentesters-it-arrested-for-assessing-courthouse-security/",
+      "description": "Settlement comes more than 6 years after Gary DeMercurio and Justin Wynn's ordeal began.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2019/11/dallas-county-courthouse-1152x648.jpeg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Dan Goodin",
+        "Stephen Matthew Milligan"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 18:30:52 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576441"
+    },
+    {
+      "id": 4121302803,
+      "title": "ICE Pretends It\u2019s a Military Force. Its Tactics Would Get Real Soldiers Killed",
+      "link": "https://www.wired.com/story/ice-pretends-its-a-military-force-its-tactics-would-get-real-soldiers-killed/",
+      "description": "WIRED asked an active military officer to break down immigration enforcement actions in Minneapolis and elsewhere.",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/697aebbc477ee8b8aa7d04e1/master/pass/GettyImages-2255809580.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "John Publius"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 18:04:13 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311690"
+    },
+    {
+      "id": 4021141802,
+      "title": "AI's impact on engineering jobs may be different than expected",
+      "link": "https://semiengineering.com/ais-impact-on-engineering-jobs-may-be-different-than-initial-projections/",
+      "description": "Article URL: https://semiengineering.com/ais-impact-on-engineering-jobs-may-be-different-than-initial-projections/\nComments URL: https://news.ycombinator.com/item?id=46813834\nPoints: 88\n# Comments: 157",
+      "source": "Hacker News",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://news.ycombinator.com/y18.svg",
+      "journalists": [
+        "rbanffy"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 18:00:10 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.628155"
+    },
+    {
+      "id": 734202044,
+      "title": "Planning bids for new homes rise in England but building remains low, data suggests",
+      "link": "https://www.bbc.com/news/articles/cy4qejvqv4no?at_medium=RSS&at_campaign=rss",
+      "description": "While planning applications have risen, home building has lowered, new data suggests.",
+      "source": "BBC Business",
+      "category": "Business",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/eecd/live/67bb0920-fd05-11f0-a8b8-bdd2c5f9bcad.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 17:58:25 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.394037"
+    },
+    {
+      "id": 1273492782,
+      "title": "New OpenAI tool renews fears that \u201cAI slop\u201d will overwhelm scientific research",
+      "link": "https://arstechnica.com/ai/2026/01/new-openai-tool-renews-fears-that-ai-slop-will-overwhelm-scientific-research/",
+      "description": "New \"Prism\" workspace launches just as studies show AI-assisted papers are flooding journals with diminished quality.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/08/robot_science_header-1152x648.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ars_Technica_logo_%282016%29.svg/200px-Ars_Technica_logo_%282016%29.svg.png",
+      "journalists": [
+        "Benj Edwards",
+        "Moor Studio via Getty Images"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 17:51:49 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.576451"
+    },
+    {
+      "id": 2102013130,
+      "title": "Archer named in England side for first T20",
+      "link": "https://www.bbc.com/sport/cricket/articles/cn0yvyxd7y1o?at_medium=RSS&at_campaign=rss",
+      "description": "Jofra Archer returns to the England team to face Sri Lanka in the first T20 match after recovering from injury.",
+      "source": "BBC Sports",
+      "category": "Sports",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/07e5/live/9b2e8070-fd37-11f0-85f9-892da4472ee9.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 17:45:10 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.629414"
+    },
+    {
+      "id": 2899437623,
+      "title": "With his first Grammy nomination, Destin Conrad embraces personal evolution",
+      "link": "https://www.npr.org/2026/01/29/nx-s1-5605583/destin-conrad-love-on-digital-album-grammy-awards",
+      "description": "Destin Conrad went from teen social media star to a musician touring the world on some of its biggest stages. In 2025, he put out both an R&B and jazz album and earned his first Grammy nomination.",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "Ailsa Chang"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 17:35:56 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991028"
+    },
+    {
+      "id": 941554231,
+      "title": "Ex-Labour MP's lobbying firm offered photo with minister and VIP dinner for \u00a330k",
+      "link": "https://www.bbc.com/news/articles/c0mkyp2z20no?at_medium=RSS&at_campaign=rss",
+      "description": "Jim Murphy's company Arden Strategies apologises for \"errors\" in promotional material for tech event.",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/5063/live/fd22f6f0-fd30-11f0-890b-55ca0a00c59d.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 17:10:01 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122556"
+    },
+    {
+      "id": 928889466,
+      "title": "An AI Toy Exposed 50,000 Logs of Its Chats With Kids to Anyone With a Gmail Account",
+      "link": "https://www.wired.com/story/an-ai-toy-exposed-50000-logs-of-its-chats-with-kids-to-anyone-with-a-gmail-account/",
+      "description": "AI chat toy company Bondu left its web console almost entirely unprotected. Researchers who accessed it found nearly all the conversations children had with the company\u2019s stuffed animals.",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/697b91bbe49b1882e7ffc198/master/pass/012826-AI-toy-children-chat-3.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "Andy Greenberg"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 17:00:00 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311699"
+    },
+    {
+      "id": 3534290983,
+      "title": "Raducanu splits with ninth coach after Australian Open exit",
+      "link": "https://www.bbc.com/sport/tennis/articles/cx2l3e18jrzo?at_medium=RSS&at_campaign=rss",
+      "description": "British number one Emma Raducanu splits with coach Francis Roig after her exit from the Australian Open.",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/dfdf/live/dc309620-fd2e-11f0-890b-55ca0a00c59d.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 16:48:36 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122565"
+    },
+    {
+      "id": 3631958658,
+      "title": "Israeli hostage held for nearly 500 days in Gaza says he can 'breathe again'",
+      "link": "https://www.bbc.com/news/articles/c8rm20gm364o?at_medium=RSS&at_campaign=rss",
+      "description": "In his first international interview, Sasha Troufanov tells the BBC how he thought he would die in captivity after he was taken hostage on 7 October 2023.",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/354f/live/8973c100-fd24-11f0-a8b8-bdd2c5f9bcad.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 16:25:40 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122546"
+    },
+    {
+      "id": 2617823828,
+      "title": "Nvidia\u2019s Campaign to Sell AI Chips to China Finally Pays Off",
+      "link": "https://www.wired.com/story/made-in-china-china-nvidia-h200-beijing-approval/",
+      "description": "Beijing reportedly approved the sale of hundreds of thousands of Nvidia H200 chips to Chinese AI companies\u2014the culmination of a dramatic shift in US tech policy.",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/697a9c48f20d0ff71a085282/master/pass/Made-In-China-Access-to-US-Chips-2245031811.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "Louise Matsakis"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 16:10:53 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311708"
+    },
+    {
+      "id": 813905483,
+      "title": "Boss Mitchell extends England contract as Scarratt joins coaching staff",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/clymed18g4go?at_medium=RSS&at_campaign=rss",
+      "description": "John Mitchell will continue as Red Roses head coach through to the next Women's Rugby World Cup in 2029 and Emily Scarratt joins the coaching staff.",
+      "source": "BBC Sports",
+      "category": "Sports",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/0fda/live/4af61070-fd26-11f0-a8b8-bdd2c5f9bcad.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 16:01:21 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.629353"
+    },
+    {
+      "id": 3729450896,
+      "title": "China to relax travel rules for British visitors, UK says",
+      "link": "https://www.bbc.com/news/articles/c150yv75pn7o?at_medium=RSS&at_campaign=rss",
+      "description": "It comes as Sir Keir Starmer visits Beijing - the first UK prime minister to do so in eight years.",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/5666/live/1a709de0-fcdf-11f0-853a-2b6f40b40d41.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 15:31:38 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122524"
+    },
+    {
+      "id": 2795233222,
+      "title": "Ministers reject Waspi calls for compensation after rethink",
+      "link": "https://www.bbc.com/news/articles/c1jeyn3yxn9o?at_medium=RSS&at_campaign=rss",
+      "description": "Women hit by changes to the state pension age say the decision shows \"utter contempt\" for their situation.",
+      "source": "BBC Business",
+      "category": "Business",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/6eb4/live/e6b6a510-fd17-11f0-a8b8-bdd2c5f9bcad.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 15:29:16 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.394057"
+    },
+    {
+      "id": 14718777,
+      "title": "Great Ormond Street doctor who botched surgery harmed nearly 100 children",
+      "link": "https://www.bbc.com/news/articles/cq841e4n4v8o?at_medium=RSS&at_campaign=rss",
+      "description": "Yaser Jabbar specialised in limb-lengthening and reconstruction for children with complex problems.",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/1311/live/110208b0-fd12-11f0-833e-6bf0186607ca.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 15:19:32 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122512"
+    },
+    {
+      "id": 596675173,
+      "title": "How the West was won: K-pop's great assimilation gambit",
+      "link": "https://www.npr.org/2026/01/29/nx-s1-5685250/kpop-demon-hunters-rose-katseye-grammys",
+      "description": "The crossover hits stacking Grammy nods this year have little in common with the culture that birthed them \u2014 but they're winning the chart game.",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "Sheldon Pearce"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 15:00:23 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991037"
+    },
+    {
+      "id": 2347017908,
+      "title": "Trump Admin's Plans for $500 Million USIP Building May Violate Court Order, Say Former Workers",
+      "link": "https://www.wired.com/story/trump-admins-plans-for-dollar500-million-usip-building-may-violate-court-order-say-former-workers/",
+      "description": "The State Department is poised to take over a building DOGE seized from the US Institute of Peace, former staffers claim\u2014possibly for Donald Trump\u2019s \u201cBoard of Peace.\u201d",
+      "source": "Wired",
+      "category": "Technology",
+      "image": "https://media.wired.com/photos/697b27025f535c8154fca49b/master/pass/GettyImages-2249832873.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/200px-Wired_logo.svg.png",
+      "journalists": [
+        "Vittoria Elliott"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 14:39:10 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.311717"
+    },
+    {
+      "id": 467482929,
+      "title": "The last chance - will Alcaraz & Sinner be stopped in Melbourne?",
+      "link": "https://www.bbc.com/sport/tennis/articles/crrn8741v9vo?at_medium=RSS&at_campaign=rss",
+      "description": "Few people predicted anything other than Carlos Alcaraz and Jannik Sinner meeting in the Australian Open final - will Alexander Zverev and Novak Djokovic stop them?",
+      "source": "BBC Sports",
+      "category": "Sports",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/bb33/live/662c1f30-fd1a-11f0-9972-d3f265c101c6.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 13:59:12 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.629074"
+    },
+    {
+      "id": 2571118173,
+      "title": "Medicare Advantage insurers face new curbs on overcharges in Trump plan",
+      "link": "https://www.npr.org/2026/01/29/nx-s1-5691896/medicare-advantage-health-insurance-trump-oz-cms-upcoding",
+      "description": "Federal officials have a plan that could curb billions of dollars in overpayments to Medicare Advantage plans. But will they follow through on it?",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "Fred Schulte"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 13:58:56 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991044"
+    },
+    {
+      "id": 1359172335,
+      "title": "Border czar says he plans to \"draw down\" ICE and CBP operations in Minnesota",
+      "link": "https://www.npr.org/2026/01/29/nx-s1-5693019/border-czar-plans-to-draw-down-ice-and-cbp-minnesota",
+      "description": "Tom Homan, who took over leadership of the surge in Minneapolis, says he is working on a plan to reduce the force of federal agents in the Twin Cities.",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "Sergio Mart\u00ednez-Beltr\u00e1n"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 13:46:45 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991051"
+    },
+    {
+      "id": 1207581499,
+      "title": "Sabalenka cruises into final despite hindrance call",
+      "link": "https://www.bbc.com/sport/tennis/videos/cg7y4n005rko?at_medium=RSS&at_campaign=rss",
+      "description": "Aryna Sabalenka will face Elena Rybakina in the Australian Open final after the world number one beat Elina Svitolina 6-2 6-3, despite being called for hindrance by umpire Louise Azemar Engzell for grunting during a rally.",
+      "source": "BBC Sports",
+      "category": "Sports",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/f56b/live/f02f0800-fd15-11f0-b7e1-afb6d0884c18.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 13:36:32 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.629311"
+    },
+    {
+      "id": 2289118481,
+      "title": "Marty Supreme actress quits new film after casting backlash",
+      "link": "https://www.bbc.com/news/articles/c24gyz3j6e1o?at_medium=RSS&at_campaign=rss",
+      "description": "Odessa A'zion says she didn't realise her character in Deep Cuts was meant to be half-Mexican.",
+      "source": "BBC News",
+      "category": "World",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/a303/live/ec0f1090-fcf6-11f0-9c55-8bade468c676.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 13:19:13 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.122584"
+    },
+    {
+      "id": 2829524215,
+      "title": "Boss of Post Office IT scandal firm Fujitsu to step down",
+      "link": "https://www.bbc.com/news/articles/cre2l5qxy9do?at_medium=RSS&at_campaign=rss",
+      "description": "Paul Patterson will become the chair of Fujitsu's UK business responsible for its inquiry response.",
+      "source": "BBC Business",
+      "category": "Business",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/9b7b/live/08c5e890-fd0f-11f0-833e-6bf0186607ca.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 13:02:57 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.394016"
+    },
+    {
+      "id": 199349790,
+      "title": "Emergency loans offered to civil servants waiting on pensions",
+      "link": "https://www.bbc.com/news/articles/c8e524n23rno?at_medium=RSS&at_campaign=rss",
+      "description": "Cabinet Office Minister Nick Thomas-Symonds says the waits faced by retired civil servants are unacceptable.",
+      "source": "BBC Business",
+      "category": "Business",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/585b/live/b1165d80-fcf7-11f0-9c55-8bade468c676.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 12:54:47 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.394067"
+    },
+    {
+      "id": 1801165918,
+      "title": "Senate to move ahead with spending deal but shutdown appears inevitable",
+      "link": "https://www.npr.org/2026/01/29/g-s1-107762/senate-shutdown-vote-fails",
+      "description": "Senate Democrats say they have a deal on the table to separate DHS funding from a package of five other appropriations bills. Once those bills are passed, they will have to once again be approved by the House.",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "Barbara Sprunt"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 12:27:29 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991061"
+    },
+    {
+      "id": 1982803772,
+      "title": "UK bans Coinbase ads implying crypto can ease cost of living concerns",
+      "link": "https://www.bbc.com/news/articles/cx2yv31482vo?at_medium=RSS&at_campaign=rss",
+      "description": "The ASA upheld complaints that Coinbase's adverts trivialised the risks of investing in cryptocurrency.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/5715/live/8b384cd0-fd02-11f0-9200-e148478a5756.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 11:40:44 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.245037"
+    },
+    {
+      "id": 4235437832,
+      "title": "Why these women break the law to sell their eggs for IVF",
+      "link": "https://www.npr.org/2026/01/29/g-s1-106920/ivf-eggs-india",
+      "description": "Women in India were told they couldn't be paid for their eggs. The result: a black market for eggs from women in need of money to survive.",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "Diaa Hadid"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 10:24:04 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991083"
+    },
+    {
+      "id": 3123737462,
+      "title": "DHS funding battle risks shutdown. And, Fed holds rates steady despite Trump pressure",
+      "link": "https://www.npr.org/2026/01/29/g-s1-107759/up-first-newsletter-government-shutdown-possible-immigration-liam-ramos-fed-inflation-interest-rates",
+      "description": "Senate Democrats threaten a partial government shutdown over DHS funding. And, the Fed defies President Trump's pressure and holds rates steady to fight inflation.",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "Brittney Melton"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 07:19:15 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991097"
+    },
+    {
+      "id": 4277618860,
+      "title": "Saying Minnesota has 'been through a lot,' Klobuchar announces bid for governor",
+      "link": "https://www.npr.org/2026/01/29/nx-s1-5680243/klobuchar-walz-minnesota-governor-midterm-election",
+      "description": "Democratic Sen. Amy Klobuchar announced her run for Minnesota governor early Thursday. There is already a crowded field of Republicans in a race where immigration enforcement has become a key issue.",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "Ellie Roth"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 07:04:05 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991106"
+    },
+    {
+      "id": 2161960202,
+      "title": "Senegal and Morocco fined and players banned after African Cup final chaos",
+      "link": "https://www.npr.org/2026/01/29/g-s1-107750/senegal-morocco-fined-african-cup-final-chaos",
+      "description": "Africa's soccer body issued fines worth more than $1 million and banned Senegal's coach and Senegalese and Morocco players Wednesday following a shambolic African Cup soccer final this month.",
+      "source": "NPR News",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/200px-National_Public_Radio_logo.svg.png",
+      "journalists": [
+        "The Associated Press"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 05:27:40 -0500",
+      "scrapedAt": "2026-01-29T20:46:01.991113"
+    },
+    {
+      "id": 3328387646,
+      "title": "US congressman meets five-year-old Liam Ramos and his father at ICE detention center \u2013 as it happened",
+      "link": "https://www.theguardian.com/us-news/live/2026/jan/28/ilhan-omar-attack-trump-minneapolis-ecuador-embassy-rubio-venezuela-machado-iran-iraq-latest-news-updates",
+      "description": "This blog has now closed. Read our latest story hereTwo federal officers fired their guns during the fatal shooting of Alex Pretti, according to an initial review by the Department of Homeland Security that was obtained by NBC News.Three sources told NBC News that the preliminary report, from a Cust",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/b42e4f03a8e5b6ff471e0ad509172a0a04922933/0_163_1536_1228/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=d51b90ded7584dbbf0cbb51e6affde85",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Cecilia Nowell , Lucy Campbell, Anna Betts, Joseph Gedeon and Aneesa Ahmed",
+        "Photograph: @JoaquinCastrotx via X"
+      ],
+      "publishedAt": "Thu, 29 Jan 2026 02:57:31 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705740"
+    },
+    {
+      "id": 1364826577,
+      "title": "Tesla cuts car models in shift to robots and AI",
+      "link": "https://www.bbc.com/news/articles/c620177qdg5o?at_medium=RSS&at_campaign=rss",
+      "description": "Multi-billionaire Elon Musk's electric car maker also said its annual revenue had fallen for the first time.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/c066/live/b36a52b0-fcc2-11f0-be2d-7b4b1a60e9bc.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 02:35:07 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.245072"
+    },
+    {
+      "id": 1557000079,
+      "title": "Facebook-owner Meta to nearly double AI spending",
+      "link": "https://www.bbc.com/news/articles/cn8jkyk78gno?at_medium=RSS&at_campaign=rss",
+      "description": "Mark Zuckerberg's spending plans hint at further layoffs and changes within Facebook, Instagram and WhatsApp.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/556e/live/03e662c0-fcd1-11f0-a3f3-217c0d974672.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Thu, 29 Jan 2026 00:16:17 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.245082"
+    },
+    {
+      "id": 1622666419,
+      "title": "ActionAid to rethink child sponsorship as part of plan to \u2018decolonise\u2019 its work",
+      "link": "https://www.theguardian.com/global-development/2026/jan/22/actionaid-rethink-child-sponsorship-decolonise-funding",
+      "description": "Development charity\u2019s new co-chief executives signal shift from controversial sponsor a child scheme launched in 1972 to long-term grassroots fundingChild sponsorship schemes that allow donors to handpick children to support in poor countries can carry racialised, paternalistic undertones and need t",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/a36774060efc87ef80d7da2140b44fddb1e9a8e2/512_0_5120_4096/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=33e2fd06712800c37e5b9537e6dc017c",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Kaamil Ahmed",
+        "Photograph: Jake Lyell/Alamy"
+      ],
+      "publishedAt": "Thu, 22 Jan 2026 05:00:00 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705672"
+    },
+    {
+      "id": 437563216,
+      "title": "Hundreds feared dead in attempt to cross Mediterranean during cyclone",
+      "link": "https://www.theguardian.com/world/2026/jan/26/hundreds-feared-dead-after-attempting-to-cross-mediterranean-amid-cyclone-harry",
+      "description": "Fifty killed in one incident as Italian authorities estimate 380 people may have drowned last weekUp to 380 people may have drowned attempting to cross the Mediterranean last week as Cyclone Harry battered southern Italy and Malta, the Italian coastguard has said, as a shipwreck with the loss of 50 ",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/8ca4be895da0614ad0e62324e544e6c874168c57/140_0_2560_2048/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=239d822cd4b1372515075dddcdb39a0d",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Angela Giuffrida in Rome",
+        "Photograph: Carmelo Imbesi/EPA"
+      ],
+      "publishedAt": "Mon, 26 Jan 2026 14:54:36 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705624"
+    },
+    {
+      "id": 2872089549,
+      "title": "Crocodile warnings as floods devastate southern Africa",
+      "link": "https://www.theguardian.com/world/2026/jan/26/crocodile-warnings-floods-devastate-southern-africa",
+      "description": "More than 100 people killed and hundreds of thousands displaced in South Africa, Mozambique and ZimbabweDevastating floods have killed more than 100 people in southern Africa since the beginning of the year and displaced hundreds of thousands, as authorities and aid workers warn of hunger, cholera a",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/fbf93c3ffaa580282df97182fe237f90cd2addf4/571_0_4583_3667/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=f2927238ab43bb78cedb3135b0a104ae",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Rachel Savage in Johannesburg",
+        "Photograph: Amilton Neves/Reuters"
+      ],
+      "publishedAt": "Mon, 26 Jan 2026 13:44:51 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705641"
+    },
+    {
+      "id": 4181208153,
+      "title": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
+      "link": "https://www.cnn.com/collections/intl-ukraine-030423/",
+      "description": "",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230331123622-evan-gershkovich-undated-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "Mon, 03 Apr 2023 13:58:58 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.971504"
+    },
+    {
+      "id": 2373337707,
+      "title": "Suspected Chinese spy balloon was able to transmit information back to Beijing",
+      "link": "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
+      "description": "The suspected Chinese spy balloon that transited the US earlier this year was able to capture imagery and collect some signals intelligence from US military sites, a source familiar with the matter tells CNN.",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230211075054-chinese-spy-balloon-recovery-020523-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "Mon, 03 Apr 2023 13:38:22 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.971513"
+    },
+    {
+      "id": 1373732181,
+      "title": "'Scary, cold, hungry and lonely': Volunteer soldier shares experience on front line",
+      "link": "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
+      "description": "A young volunteer soldier, Akula, who signed up for the war at the beginning of the Russian invasion is now dealing with the trauma of war. He spoke to CNN's David McKenzie about his time on the front lines and how it has affected his mental health.",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230327100109-ptsd-soldier-ukraine-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "Mon, 03 Apr 2023 12:13:24 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.971530"
+    },
+    {
+      "id": 615646383,
+      "title": "How Sequoia-backed Ethos reached the public market while rivals fell short",
+      "link": "https://techcrunch.com/2026/01/29/how-sequoia-backed-ethos-reached-the-public-market-while-rivals-fell-short/",
+      "description": "The profitable life-insurance platform was one of the first major tech companies to test the 2026 public markets.",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/200px-TechCrunch_logo.svg.png",
+      "journalists": [
+        "Marina Temkin"
+      ],
+      "publishedAt": "Fri, 30 Jan 2026 01:33:13 +0000",
+      "scrapedAt": "2026-01-29T20:46:02.206393"
+    },
+    {
+      "id": 3436970825,
+      "title": "Trump threatens tariffs on countries selling oil to Cuba",
+      "link": "https://www.bbc.com/news/articles/c74vyr44xn3o?at_medium=RSS&at_campaign=rss",
+      "description": "Cuba was previously importing about 35,000 barrels of oil a day from long-time ally Venezuela.",
+      "source": "BBC Business",
+      "category": "Business",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/9db6/live/1550b900-fd78-11f0-99b2-191dbb1c06a2.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Fri, 30 Jan 2026 01:23:37 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.394006"
+    },
+    {
+      "id": 1686698814,
+      "title": "Trump threatens tariffs on goods from countries that sell oil to Cuba",
+      "link": "https://www.theguardian.com/us-news/2026/jan/29/trump-tariffs-cuba-oil",
+      "description": "White House cites Cuba\u2019s ties to hostile powers as order ratchets up Trump\u2019s pressure to topple its governmentDonald Trump signed an executive order on Thursday laying the groundwork to slap tariffs on goods from countries that provide oil to Cuba, the White House said.The order, which ratchets up T",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/9ef9279c9381d1f5802f3e03540aed4a53e8f87c/393_0_7200_5760/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=54de0491265ed4473f6b2b74e5519f10",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Roque Planas",
+        "Photograph: Aaron Schwartz/EPA"
+      ],
+      "publishedAt": "Fri, 30 Jan 2026 01:06:44 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705687"
+    },
+    {
+      "id": 2586427549,
+      "title": "Gaza-based journalist Bisan Owda regains TikTok account after outcry",
+      "link": "https://www.aljazeera.com/news/2026/1/30/gaza-based-journalist-bisan-owda-regains-tiktok-account-after-outcry?traffic_source=rss",
+      "description": "Award-winning Palestinian journalist regains account with 1.4 million followers after surprise removal from platform.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Fri, 30 Jan 2026 01:01:35 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270778"
+    },
+    {
+      "id": 690509097,
+      "title": "Venezuelan MPs approve bill to open up oil sector to private firms",
+      "link": "https://www.bbc.com/news/articles/cp80r4rdp3yo?at_medium=RSS&at_campaign=rss",
+      "description": "The change could pave the way for more foreign investment in the country's oil industry.",
+      "source": "BBC Business",
+      "category": "Business",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/b5e9/live/8080d990-fd59-11f0-809e-0391886361ed.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Fri, 30 Jan 2026 00:59:49 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.394047"
+    },
+    {
+      "id": 4086699686,
+      "title": "Journalist dreams & Keane reunion? How O'Neill continues to revive Celtic",
+      "link": "https://www.bbc.com/sport/football/articles/cn42dpdx1edo?at_medium=RSS&at_campaign=rss",
+      "description": "Showman Martin O'Neill continues to thrive as Celtic's interim manager as he guides the club through to the Europa League play-off round.",
+      "source": "BBC Sports",
+      "category": "Sports",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/b791/live/74b85930-fd68-11f0-a00a-0545b9d7ca40.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Fri, 30 Jan 2026 00:37:27 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.629038"
+    },
+    {
+      "id": 2521881967,
+      "title": "Niger\u2019s military ruler vows retaliation after gunfire and explosions heard in capital",
+      "link": "https://www.theguardian.com/world/2026/jan/29/gunfire-blasts-heard-airport-niamey-niger-planes-hit-reports",
+      "description": "General Tchiani accuses France, Benin and the Ivory Coast of links to attack near Niamey\u2019s airport and thanks Russian troops for defence efforts  Heavy security has been deployed around the main airport in Niger\u2019s capital, Niamey, after overnight gunfire and explosions that the country\u2019s military ru",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/1daaa37b2d58b2881d762523fa03094d23e23140/44_0_5302_4242/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=2f0e0a1376be8dc7642e2f3cf7077bff",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Eromo Egbejule West Africa correspondent and agencies",
+        "Photograph: 2026 Planet Labs PBC/AFP/Getty Images"
+      ],
+      "publishedAt": "Fri, 30 Jan 2026 00:34:02 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705597"
+    },
+    {
+      "id": 1027193572,
+      "title": "Apple reports best-ever iPhone sales as Mac dips",
+      "link": "https://www.bbc.com/news/articles/cy8yw190q83o?at_medium=RSS&at_campaign=rss",
+      "description": "The company's revenue was boosted by iPhone sales, but sales of its wearable tech and Mac computers dipped.",
+      "source": "BBC Technology",
+      "category": "Technology",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/0dad/live/7c202970-fd57-11f0-809e-0391886361ed.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Fri, 30 Jan 2026 00:24:33 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.244999"
+    },
+    {
+      "id": 363524142,
+      "title": "Visit the North Sea oil field used to store greenhouse gas",
+      "link": "https://www.bbc.com/news/articles/cq5y7dd284do?at_medium=RSS&at_campaign=rss",
+      "description": "Hundreds of miles from Denmark's coast a project is underway to inject CO2 into an old oil field.",
+      "source": "BBC Business",
+      "category": "Business",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/71ed/live/a9beb2e0-f873-11f0-b5f7-49f0357294ff.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Fri, 30 Jan 2026 00:10:01 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.394026"
+    },
+    {
+      "id": 3557049742,
+      "title": "Rangers' Euro distraction fades as mammoth month comes into focus",
+      "link": "https://www.bbc.com/sport/football/articles/cpqy3pnz0zdo?at_medium=RSS&at_campaign=rss",
+      "description": "Now Rangers are out of Europe, has the road to their domestic path been cleared?",
+      "source": "BBC Sports",
+      "category": "Sports",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/278a/live/588e8450-fd63-11f0-9c09-35264ee739f3.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Fri, 30 Jan 2026 00:09:37 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.629096"
+    },
+    {
+      "id": 1677833333,
+      "title": "Why the US dollar hit a four-year low and could fall further",
+      "link": "https://www.bbc.com/news/articles/czjg2rlyvyzo?at_medium=RSS&at_campaign=rss",
+      "description": "The falls have sparked questions about whether the world's go-to currency is losing its lustre.",
+      "source": "BBC Business",
+      "category": "Business",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/ae4d/live/70dd1110-fd37-11f0-85f9-892da4472ee9.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/200px-BBC_Logo_2021.svg.png",
+      "journalists": null,
+      "publishedAt": "Fri, 30 Jan 2026 00:06:13 GMT",
+      "scrapedAt": "2026-01-29T20:46:01.393985"
+    },
+    {
+      "id": 676237909,
+      "title": "Venezuela\u2019s Rodriguez signs oil reform law while the US eases sanctions",
+      "link": "https://www.aljazeera.com/news/2026/1/30/venezuelas-rodriguez-signs-oil-reform-law-while-the-us-eases-sanctions?traffic_source=rss",
+      "description": "The Trump administration has pressured Venezuela to increase foreign access to the country&#039;s large oil reserves.",
+      "source": "Al Jazeera",
+      "category": "World",
+      "image": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png",
+      "journalists": null,
+      "publishedAt": "Fri, 30 Jan 2026 00:03:16 +0000",
+      "scrapedAt": "2026-01-29T20:46:03.270814"
+    },
+    {
+      "id": 4261332375,
+      "title": "\u2018It\u2019s the sovereignty of the country\u2019: Guinea-Bissau says US vaccine study suspended",
+      "link": "https://www.theguardian.com/world/2026/jan/23/guinea-bissau-hepatitis-b-vaccine-study",
+      "description": "Despite US pushback, officials in west Africa say controversial hepatitis B study on pause amid ethics concernsUS health officials insisted it was still on. African health leaders said it was cancelled. At the heart of the controversy is the west African nation of Guinea-Bissau \u2013 one of the poorest ",
+      "source": "The Guardian",
+      "category": "World",
+      "image": "https://i.guim.co.uk/img/media/477670c0eb0d7e9153ad4965b6ecb59056cfab3b/683_0_6827_5464/master/1000.jpg?width=1200&quality=85&auto=format&fit=max&s=fcdd74cd9f9b254254ac78f8793a9528",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/200px-The_Guardian.svg.png",
+      "journalists": [
+        "Melody Schreiber",
+        "Photograph: The Washington Post/Getty Images"
+      ],
+      "publishedAt": "Fri, 23 Jan 2026 17:09:46 GMT",
+      "scrapedAt": "2026-01-29T20:46:02.705658"
+    },
+    {
+      "id": 891316590,
+      "title": "Russian authorities detain suspect over St. Petersburg cafe blast",
+      "link": "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+      "description": "",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230403122852-04-russia-cafe-explosion-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "2026-01-29T20:46:02.971485",
+      "scrapedAt": "2026-01-29T20:46:02.971486"
+    },
+    {
+      "id": 2570582994,
+      "title": "READ: Trump indictment related to hush money payment",
+      "link": "https://cnn.it/411KYN7",
+      "description": "",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230404123050-19-trump-arraignment-0404-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "2026-01-29T20:46:02.971475",
+      "scrapedAt": "2026-01-29T20:46:02.971476"
+    },
+    {
+      "id": 3079498447,
+      "title": "Trump pleads not guilty to 34 felony counts",
+      "link": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+      "description": "",
+      "source": "CNN",
+      "category": "World",
+      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230403164607-22-trump-indictment-travel-new-york-super-169.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "journalists": null,
+      "publishedAt": "2026-01-29T20:46:02.971430",
+      "scrapedAt": "2026-01-29T20:46:02.971442"
     }
-  }
+  ],
+  "lastUpdated": "2026-01-29T20:46:03.631044",
+  "totalArticles": 127
 }

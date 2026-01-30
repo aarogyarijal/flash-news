@@ -9,12 +9,14 @@ import SavedPage from "./components/SavedPage";
 function App() {
     const [videos] = useState([]);
     const videoRefs = useRef([]);
+    const containerRef = useRef(null);
     const [currentPage, setCurrentPage] = useState("home");
     const [videoUrls, setVideoUrls] = useState([]);
+    const [selectedArticleIndex, setSelectedArticleIndex] = useState(null);
 
     useEffect(() => {
         // Fetch JSON file from the public directory
-        fetch('http://localhost:5000/search')
+        fetch('http://localhost:3001/search')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -22,34 +24,24 @@ function App() {
                 return response.json(); // Read the response body once
             })
             .then(data => {
-                if (!data || !data.newspapers) {
+                if (!data || !data.articles) {
                     throw new Error('Invalid data structure');
                 }
-                const allArticles = Object.values(data.newspapers)
-                    .flatMap(newspaper => newspaper.articles);
-                // const transformedData = allArticles.map((article, index) => ({
-                //     id: index + 1,
-                //     images: article.url,
-                //     title: article.title,
-                //     description: article.description,
-                //     source: article.published,
-                //     link: article.url,
-                //     likes: 0, // Placeholder values for likes, comments, saves, and shares
-                //     comments: 0,
-                //     saves: 0,
-                //     shares: 0
-                // }));
+                const allArticles = data.articles
+                    .filter(article => article.image || article.videos);
                 const transformedData = allArticles.map((article, index) => ({
-                    id: index + 1,
+                    id: article.id || index + 1,
                     source: article.source,
-                    url: article.url,
+                    url: article.link,
                     title: article.title,
-                    published: article.published,
-                    images: article.images,
-                    videos:article.videos,
+                    published: article.publishedAt,
+                    images: article.image,
+                    videos: null,
                     description: article.description,
                     journalists: article.journalists,
-                    likes: 0, // Placeholder values for likes, comments, saves, and shares
+                    category: article.category,
+                    profilePic: article.logo,
+                    likes: 0,
                     comments: 0,
                     saves: 0,
                     shares: 0
@@ -105,6 +97,24 @@ function App() {
         setCurrentPage(page);
     };
 
+    const handleArticleSelect = (articleId) => {
+        const index = videoUrls.findIndex(v => v.id === articleId);
+        if (index !== -1) {
+            setSelectedArticleIndex(index);
+            setCurrentPage("home");
+            // Scroll to the selected article after switching to home
+            setTimeout(() => {
+                const container = document.querySelector('.container');
+                if (container) {
+                    container.scrollTo({
+                        top: index * window.innerHeight,
+                        behavior: 'smooth'
+                    });
+                }
+            }, 100);
+        }
+    };
+
     return (
         <div className="app">
             <div className="container">
@@ -124,7 +134,7 @@ function App() {
                             saves={video.saves}
                             comments={video.comments}
                             shares={video.shares}
-
+                            profilePic={video.profilePic}
                             setVideoRef={handleVideoRef(index)}
                             autoplay={index === 0}
                         />
@@ -136,7 +146,7 @@ function App() {
                 {/*}*/}
 
                 {(currentPage === "search") && (
-                    <SearchPage videos={videoUrls}/>
+                    <SearchPage videos={videoUrls} onArticleSelect={handleArticleSelect}/>
                 )
                 }
                 {(currentPage === "profile") && (
